@@ -1,0 +1,262 @@
+/* ===== COLOURS AND FONTS ===== */
+/* Dark "lamplit library" colours by default */
+:root {
+    --paper: #16110D;       /* page background */
+    --card: #211913;        /* boxes and cards */
+    --ink: #ECE1CD;         /* main text */
+    --muted: #A99780;       /* less important text */
+    --rule: #3B2D21;        /* borders and lines */
+    --accent: #C9A35B;      /* gold highlights */
+    --accent-ink: #1A130D;  /* text on top of the accent colour */
+    --accent-soft: #30241A; /* gentle hover background */
+    --glow: rgba(222,170,92,.13);
+
+    --display: "IM Fell English", Georgia, serif;
+    --body: "EB Garamond", Georgia, serif;
+    --type: "Courier Prime", "Courier New", monospace;
+
+    color-scheme: dark;
+}
+
+/* Old-paper colours when the computer is set to light mode */
+@media (prefers-color-scheme: light) {
+    :root {
+        --paper: #E8E0CF;
+        --card: #F4EEE2;
+        --ink: #2A1E15;
+        --muted: #6A5845;
+        --rule: #D0C1A8;
+        --accent: #7B2320;
+        --accent-ink: #F6EFE3;
+        --accent-soft: #E2D4BC;
+        --glow: rgba(160,110,40,.10);
+        color-scheme: light;
+    }
+}
+
+
+/* ===== THE PAGE ===== */
+/* Sizes include padding and border, so widths add up as expected */
+* {
+    box-sizing: border-box;
+}
+
+/* Page background and default text */
+body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--body);
+    font-size: 17px;
+    line-height: 1.5;
+    /* a faint warm lamp glow at the top-left */
+    background-image: radial-gradient(1100px 520px at 18% -120px, var(--glow), transparent 70%);
+    background-repeat: no-repeat;
+}
+
+/* The centred column everything sits in – this is the edge padding */
+.wrap {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 30px 16px 72px;
+}
+
+
+/* ===== HEADINGS ===== */
+/* Small typewritten line above the title */
+.eyebrow {
+    font-family: var(--type);
+    font-size: 12px;
+    letter-spacing: .18em;
+    text-transform: uppercase;
+    color: var(--accent);
+}
+
+h1 {
+    font-family: var(--display);
+    font-weight: 400;
+    font-size: clamp(40px, 7vw, 68px);
+    line-height: 1;
+    margin: 8px 0 0;
+}
+
+h2 {
+    font-family: var(--display);
+    font-weight: 400;
+}
+
+
+/* ===== CONTROLS BAR ===== */
+/* Search and dropdowns in one card that wraps on small screens */
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 26px 0;
+    padding: 14px;
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+}
+
+/* Every input and dropdown inside the controls bar */
+.controls input,
+.controls select {
+    font: inherit;
+    font-size: 16px; /* 16px or more stops iPhone zooming in when you tap */
+    padding: 8px 11px;
+    background: var(--paper);
+    color: var(--ink);
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+}
+
+/* The search box stretches to fill the spare space */
+.controls input {
+    flex: 1 1 260px;
+}
+
+/* Gold outline on whichever control you're typing in or using */
+.controls input:focus,
+.controls select:focus {
+    outline: 2px solid var(--accent);
+    outline-offset: 1px;
+}
+
+
+/* ===== LIST AND PANEL ===== */
+/* Put the list and panel side by side */
+main {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+/* The list: fixed width, scrolls on its own, no default indent or bullets */
+#books {
+    width: 350px;
+    height: 80vh;
+    overflow-y: auto;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Each book in the list */
+#books li {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    gap: 12px;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid var(--rule);
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+/* Small cover, or an empty cloth-coloured box when there isn't one */
+#books .thumb {
+    width: 40px;
+    aspect-ratio: 2 / 3;
+    object-fit: cover;
+    border-radius: 1px 2px 2px 1px;
+    background: var(--rule);
+}
+
+/* Title above author */
+#books .entry {
+    display: grid;
+    min-width: 0;
+}
+
+#books .entry span:last-child {
+    font-family: var(--type);
+    font-size: 13px;
+    color: var(--muted);
+}
+
+/* Highlight a book when the mouse is over it */
+#books li:hover {
+    background: var(--accent-soft);
+}
+
+/* The book currently shown in the panel */
+#books li.selected {
+    background: var(--accent);
+    color: var(--accent-ink);
+}
+
+/* keep the author readable on the highlighted book */
+#books li.selected .entry span:last-child {
+    color: var(--accent-ink);
+    opacity: 0.8;
+}
+
+/* Book details as a card that takes the remaining space */
+#panel {
+    flex: 1;
+    padding: 20px 24px;
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+}
+
+#panel h2 {
+    margin-top: 0;
+}
+
+#panel .cover {
+    width: 150px;
+    border-radius: 1px 3px 3px 1px;
+    box-shadow: 3px 6px 16px -4px rgba(0, 0, 0, 0.55);
+}
+
+/* The editable fields in the panel: a row that wraps on small screens */
+#panel .fields {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin: 14px 0;
+}
+
+/* Each field: small label above its control */
+#panel .field {
+    display: grid;
+    gap: 4px;
+}
+
+#panel .field span {
+    font-family: var(--type);
+    font-size: 11.5px;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: var(--muted);
+}
+
+#panel .field select,
+#panel .field input {
+    font: inherit;
+    font-size: 16px;
+    padding: 6px 10px;
+    background: var(--paper);
+    color: var(--ink);
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+}
+
+/* ===== PHONES ===== */
+/* Narrow screens: stack the list and panel instead of side by side */
+@media (max-width: 700px) {
+    main {
+        flex-direction: column;
+    }
+
+    #books {
+        width: auto;
+        height: 50vh;
+    }
+
+    #panel {
+        order: -1;
+    }
+}

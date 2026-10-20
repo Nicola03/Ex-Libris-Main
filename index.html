@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex Libris</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="eyebrow"> A personal library · filed by surname</div>
+        <h1>Ex Libris</h1>
+        <div class="controls">
+            <input id="search" type="search" placeholder="Search Title or Author">
+            <select id="category">
+                <option value="">All categories</option>
+            </select>
+            <select id="status">
+                <option value="">All Statuses</option>
+            </select>
+            <select id="sort">
+                <option value="title">Title A–Z</option>
+                <option value="author">Author A–Z</option>
+                <option value="added">Recently added</option>
+                <option value="rating">Highest rated</option>
+            </select>
+        </div>
+        <main>
+            <ul id="books"></ul>
+            <div id="panel"></div>
+        </main>
+    </div>
+    <script src="covers.js"></script>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
