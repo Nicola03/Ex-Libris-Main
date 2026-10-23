@@ -361,6 +361,58 @@ main {
     cursor: pointer;
 }
 
+/* Shop mode: section headings between the books */
+#books li.shop-heading {
+    display: block;
+    margin-top: 18px;
+    padding: 4px 8px;
+    font-family: var(--type);
+    font-size: 12px;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    border-bottom: 1px solid var(--accent);
+    cursor: default;
+}
+
+#books li.shop-heading:hover {
+    background: none;
+}
+
+/* "Also: ..." line under the author in shop mode */
+#books .entry span.also {
+    font-family: var(--body);
+    font-style: italic;
+    font-size: 13px;
+}
+/* Shop mode: hide the panel, full-width list, with a Got it button on each book */
+main.shopping #panel {
+    display: none;
+}
+
+main.shopping #books {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+}
+
+main.shopping #books li {
+    grid-template-columns: 40px 1fr auto;
+}
+
+#books .got-it {
+    font-family: var(--type);
+    font-size: 12px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    padding: 8px 12px;
+    background: var(--accent);
+    color: var(--accent-ink);
+    border: 0;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
 /* ===== PHONES ===== */
 /* Narrow screens: stack the list and panel instead of side by side */
 @media (max-width: 700px) {

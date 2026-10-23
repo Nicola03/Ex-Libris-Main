@@ -14,18 +14,29 @@
         <div class="eyebrow"> A personal library · filed by surname</div>
         <h1>Ex Libris</h1>
         <div class="controls">
-            <input id="search" type="search" placeholder="Search Title or Author">
-            <select id="category">
+            <input id="search" type="search" placeholder="Search Title or Author" autocomplete="off">
+            <select id="category" autocomplete="off">
                 <option value="">All categories</option>
             </select>
-            <select id="status">
+            <select id="status" autocomplete="off">
                 <option value="">All Statuses</option>
             </select>
-            <select id="sort">
+            <select id="sort" autocomplete="off">
                 <option value="title">Title A–Z</option>
                 <option value="author">Author A–Z</option>
                 <option value="added">Recently added</option>
                 <option value="rating">Highest rated</option>
+            </select>
+            <select id="shop" autocomplete="off">
+                <option value="">Library</option>
+                <option value="waterstones">Waterstones</option>
+                <option value="foyles">Foyles</option>
+                <option value="blackwells">Blackwell's</option>
+            </select>
+            <select id="owned" autocomplete="off">
+                <option value="">All books</option>
+                <option value="owned">Owned</option>
+                <option value="not-owned">Not owned</option>
             </select>
         </div>
         <main>

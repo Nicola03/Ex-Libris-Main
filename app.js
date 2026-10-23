@@ -34,6 +34,9 @@ const search = document.getElementById("search");
 const categorySelect = document.getElementById("category");
 const statusSelect = document.getElementById("status");
 const sortSelect = document.getElementById("sort");
+const shopSelect = document.getElementById("shop");
+const ownedSelect = document.getElementById("owned");
+const mainArea = document.querySelector("main");
 
 let bookSelection = null;
 
@@ -295,49 +298,97 @@ async function showBook(book) {
     pageBox.value = (await highestPage(book)) ?? "";
 }
 
+// Build one book's list item: cover, title, author, click to open
+function makeItem(book) {
+    const item = document.createElement("li");
+
+    // small book cover on the left, or an empty box if there isn't one
+    const cover = window.COVERS[book.goodreads_id];
+    const thumb = document.createElement(cover ? "img" : "div");
+    thumb.className = "thumb";
+    if (cover) {
+        thumb.src = cover;
+        thumb.alt = "";
+    }
+    item.append(thumb);
+
+    // title and author on the right
+    const entry = document.createElement("div");
+    entry.className = "entry";
+    addText(entry, "span", book.title);
+    addText(entry, "span", book.author);
+    item.append(entry);
+
+    // when clicked, highlight it and show the book in the panel
+    item.addEventListener("click", () => {
+        list.querySelector(".selected")?.classList.remove("selected");
+        item.classList.add("selected");
+        bookSelection = book;
+        showBook(book);
+    });
+
+    // keep the highlight after a redraw
+    if (book === bookSelection) {
+        item.classList.add("selected");
+    }
+
+    return item;
+}
+
 // Draw a list of books on the page
 function showList(booksToShow) {
     list.replaceChildren(); // empty the shelf first
-
     for (const book of booksToShow) {
-        // Make a new, empty list item (<li>) – not on the page yet
-        const item = document.createElement("li");
-        
-        // small book cover on the left of the book, empty if none
-        const cover = window.COVERS[book.goodreads_id];
-        const thumb = document.createElement(cover ? "img" : "div");
-        thumb.className = "thumb";
-        if (cover) {
-            thumb.src = cover;
-            thumb.alt = "";
-        }
-        item.append(thumb);
-
-        // title and author put on the right
-        const entry = document.createElement("div");
-        entry.className = "entry";
-        addText(entry, "span", book.title);
-        addText(entry, "span", book.author);
-        item.append(entry);
-
-        // when this item is clicked show this book in the panel
-        item.addEventListener("click", () => {
-            // remove the highlight from whichever book had it
-            list.querySelector(".selected")?.classList.remove("selected");
-            // highlight this one, then show its details
-            item.classList.add("selected");
-            bookSelection = book;
-            showBook(book);
-        });
-        
-        // maintain the selected on the book
-        if (book === bookSelection) {
-            item.classList.add("selected");
-        }
-
-        // Add the item to the unordered list <ul> so it appears on the page
-        list.append(item);
+        list.append(makeItem(book));
     }
+}
+
+// Draw books grouped under a shop's section headings
+function showShopList(booksToShow, shop) {
+    list.replaceChildren();
+
+    // group: {"classics": [book, book], "Horror", [book],...}
+    const groups = {};
+    for (const book of booksToShow) {
+        const section = book[shop] ?? "Unsorted";
+        if (!groups[section]) {
+            groups[section] = []; // first book in this section: start its list
+        }
+        groups[section].push(book);
+    }
+
+    // sections A-Z, but "not usually stocked" area at bottom 
+    const sections = Object.keys(groups).sort();
+    sections.sort((a, b) => (a === "Not usually stocked") - (b === "Not usually stocked"));
+
+    for (const section of sections) {
+        const heading = addText(list, "li", `${section} (${groups[section].length})`);
+        heading.className = "shop-heading";
+
+        for (const book of groups[section]) {
+            const item = makeItem(book);
+            // other places this book might be shelved in this shop
+            const also = book[shop + "_also"] ?? [];
+            if (also.length > 0) {
+                addText(item.querySelector(".entry"), "span", "Also: " + also.join(", ")).className = "also";
+            }
+
+            // "Got it" marks the book as owned; tap again to undo
+            const gotIt = document.createElement("button");
+            gotIt.className = "got-it";
+            gotIt.textContent = book.owned ? "Owned ✓" : "Got it";
+            gotIt.addEventListener("click", async (event) => {
+                event.stopPropagation(); // don't also count as clicking the book
+                book.owned = !book.owned;
+                await saveEdit(book.goodreads_id, { owned: book.owned });
+                applyFilters();
+            });
+            item.append(gotIt);
+
+            list.append(item);
+        }
+    }
+
 }
 
 // Filter by search, category and status, sort, then redraw
@@ -345,7 +396,8 @@ function applyFilters() {
     const text = search.value.toLowerCase();
     const category = categorySelect.value; // "" means "All categories"
     const status = statusSelect.value; 
-
+    const owned = ownedSelect.value;
+        
     const matches = books.filter(book => {
         // ?? "" is a guard: if the title/author is null (missing), use empty text instead,
         // so .toLowerCase() doesn't crash on a book with no data
@@ -358,8 +410,14 @@ function applyFilters() {
 
         const matchesStatus = status === "" || book.status === status;
 
+        // all books, or only owned, or only not owned
+        const matchesOwned =
+            owned === "" ||
+            (owned === "owned" && book.owned) ||
+            (owned === "not-owned" && !book.owned);
+
         // the book only shows if it passes all three tests
-        return matchesText && matchesCategory && matchesStatus;
+        return matchesText && matchesCategory && matchesStatus && matchesOwned;
     });
     // sort the matching books by whatever the sort dropdown says
     const sortBy = sortSelect.value;
@@ -374,7 +432,14 @@ function applyFilters() {
         matches.sort((a, b) => (b.rating ?? 0) - (a.rating ?? 0));
     }
 
-    showList(matches);
+    const shop = shopSelect.value;
+    // in shop mode, hide the panel and let the lsit use the full width
+    mainArea.classList.toggle("shopping", shop !== "");
+    if (shop) {
+        showShopList(matches, shop);
+    } else {
+        showList(matches);
+    }
 }
 
 
@@ -410,4 +475,5 @@ search.addEventListener("input", applyFilters);
 categorySelect.addEventListener("change", applyFilters);
 statusSelect.addEventListener("change", applyFilters);
 sortSelect.addEventListener("change", applyFilters);
-
+shopSelect.addEventListener("change", applyFilters);
+ownedSelect.addEventListener("change", applyFilters);
