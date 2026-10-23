@@ -10358,5 +10358,77 @@
    "Horror"
   ],
   "review": null
+ },
+ {
+  "title": "The Mysteries of Udolpho",
+  "author": "Ann Radcliffe",
+  "author_sort": "Radcliffe, Ann",
+  "category": "Classic Gothic",
+  "extra_shelves": [],
+  "series": null,
+  "status": "to-read",
+  "rating": null,
+  "year": 1794,
+  "pages": 654,
+  "isbn13": "9780140437591",
+  "date_read": null,
+  "date_added": "2026/10/23",
+  "goodreads_id": 93134,
+  "possible_duplicate": false,
+  "year_approx": false,
+  "synopsis": "Orphaned Emily St. Aubert is taken by her scheming new guardian to a remote castle in the Apennines, full of locked rooms, veiled secrets and apparent hauntings. A founding Gothic novel.",
+  "series_name": null,
+  "series_number": null,
+  "waterstones": "Classics",
+  "foyles": "Classics",
+  "blackwells": "Classics",
+  "edition": "Penguin Classics · Paperback · 2001",
+  "contributors": "Jacqueline Howard",
+  "waterstones_also": [
+   "Horror"
+  ],
+  "foyles_also": [
+   "Horror"
+  ],
+  "blackwells_also": [
+   "Horror"
+  ],
+  "review": null
+ },
+ {
+  "title": "Rebecca",
+  "author": "Daphne du Maurier",
+  "author_sort": "Maurier, Daphne du",
+  "category": "Classic Gothic",
+  "extra_shelves": [],
+  "series": null,
+  "status": "to-read",
+  "rating": null,
+  "year": 1938,
+  "pages": 449,
+  "isbn13": "9780316323703",
+  "date_read": null,
+  "date_added": "2026/10/23",
+  "goodreads_id": 17899948,
+  "possible_duplicate": false,
+  "year_approx": false,
+  "synopsis": "A shy young bride arrives at Manderley, her husband's Cornish estate, and finds herself haunted by the memory of his glamorous first wife, Rebecca, and watched by the housekeeper Mrs Danvers.",
+  "series_name": null,
+  "series_number": null,
+  "waterstones": "Classics",
+  "foyles": "Classics",
+  "blackwells": "Classics",
+  "edition": "Little, Brown and Company · Kindle Edition · 2013",
+  "contributors": null,
+  "waterstones_also": [
+   "Fiction A–Z"
+  ],
+  "foyles_also": [
+   "Fiction A–Z"
+  ],
+  "blackwells_also": [
+   "Fiction"
+  ],
+  "review": null
  }
 ]
