@@ -413,6 +413,59 @@ main.shopping #books li {
     cursor: pointer;
 }
 
+/* A session with a photo: thumbnail on the left, words on the right */
+#panel .session.has-photo {
+    display: grid;
+    grid-template-columns: 64px 1fr;
+    gap: 12px;
+}
+
+#panel .session {
+    cursor: pointer;
+}
+
+#panel .session-photo {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    border-radius: 2px;
+}
+
+#panel .session-words {
+    min-width: 0;
+    padding-right: 60px; /* keep text clear of the Delete link */
+}
+
+/* closed: long notes show two lines */
+#panel .session:not(.open) .session-words p {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* open: the photo takes the full width, uncropped, above the words */
+#panel .session.open.has-photo {
+    grid-template-columns: 1fr;
+}
+
+#panel .session.open .session-photo {
+    width: 100%;
+    height: auto;
+    max-height: 420px;
+    object-fit: contain;
+    background: var(--paper);
+}
+
+/* Photo preview in the log form */
+#panel .logform .preview {
+    width: 120px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 3px;
+    border: 1px solid var(--rule);
+}
+
 /* ===== PHONES ===== */
 /* Narrow screens: stack the list and panel instead of side by side */
 @media (max-width: 700px) {

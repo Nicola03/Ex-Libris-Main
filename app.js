@@ -64,6 +64,21 @@ function addField(parent, labelText, control) {
     parent.append(label);
 }
 
+// shrink photos cause we dont want huge photos
+async function shrinkPhoto(file, maxSize = 1200) {
+    const image = await createImageBitmap(file);
+
+    // scale down only, small photos stay small
+    const scale = Math.min(1, maxSize / Math.max(image.width, image.height));
+    const width = Math.round(image.width * scale);
+    const height = Math.round(image.height * scale);
+
+    // draw it onto a canvas of the new size, return back file
+    const canvas = new OffscreenCanvas(width, height);
+    canvas.getContext("2d").drawImage(image, 0, 0, width, height);
+    return await canvas.convertToBlob({type: "image/jpeg", quality: 0.8});
+}
+
 // Draw one book's reading sessions into a container, newest first
 async function showSessions(book, container) {
     const sessions = await db.sessions.where("bookId").equals(book.goodreads_id).toArray();
@@ -93,19 +108,39 @@ async function showSessions(book, container) {
     for (const session of sessions) {
         const entry = document.createElement("div");
         entry.className = "session";
+
+        // photo on the left as a small thumbnail (shown in full when the card is open)
+        if (session.photo) {
+            entry.classList.add("has-photo");
+            const photo = document.createElement("img");
+            photo.className = "session-photo";
+            photo.alt = "";
+            photo.src = URL.createObjectURL(session.photo);
+            entry.append(photo);
+        }
+
+        // the words go in their own box, to the right of the photo
+        const words = document.createElement("div");
+        words.className = "session-words";
         const pageText = session.page ? ` · page ${session.page}` : "";
         const moodText = session.mood ? session.mood + " " : "";
-
-        addText(entry, "h4", moodText + session.date + pageText);
+        addText(words, "h4", moodText + session.date + pageText);
         if (session.note) {
-            addText(entry, "p", session.note);
+            addText(words, "p", session.note);
         }
+        entry.append(words);
+
+        // tap the card to open or close it
+        entry.addEventListener("click", () => {
+            entry.classList.toggle("open");
+        });
 
         // a button to delete this session, then redraw so it disappears
         const deleteButton = document.createElement("button");
         deleteButton.textContent = "Delete";
         deleteButton.className = "delete";
-        deleteButton.addEventListener("click", async () => {
+        deleteButton.addEventListener("click", async (event) => {
+            event.stopPropagation(); // don't also open or close the card
             await db.sessions.delete(session.id);
             await showSessions(book, container);
         });
@@ -254,6 +289,28 @@ async function showBook(book) {
     moodField.append(moodRow);
     form.append(moodField);
 
+    // photo: pick one (or take one on a phone) and preview before save
+    const photoInput = document.createElement("input");
+    photoInput.type = "file";
+    photoInput.accept = "image/*";
+    addField(form, "Photo", photoInput);
+
+    const preview = document.createElement("img");
+    preview.className = "preview";
+    preview.alt = "";
+    preview.hidden = true;
+    form.append(preview);
+
+    photoInput.addEventListener("change", () => {
+        const file = photoInput.files[0];
+        if (!file) {
+            preview.hidden = true;
+            return;
+        }
+        preview.src = URL.createObjectURL(file);
+        preview.hidden = false;
+    });
+
     const saveButton = document.createElement("button");
     saveButton.textContent = "Save session";
     form.append(saveButton);
@@ -276,7 +333,8 @@ async function showBook(book) {
             date: sessionDate.value.replaceAll("-", "/"),
             page: pageBox.value === "" ? null : Number(pageBox.value),
             note: noteBox.value,
-            mood: mood
+            mood: mood,
+            photo: photoInput.files[0] ? await shrinkPhoto(photoInput.files[0]) : null
         });
 
         // clear the form for next time, but keep today's date
@@ -288,6 +346,9 @@ async function showBook(book) {
         for (const b of moodRow.children) {
             b.setAttribute("aria-pressed", false);
         }
+        
+        // make img space hidden by default
+        preview.hidden = true;
 
         await showSessions(book, sessionList);
 
