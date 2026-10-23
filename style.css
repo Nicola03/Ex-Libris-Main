@@ -317,6 +317,50 @@ main {
     overflow-x: auto;
 }
 
+/* Mood buttons: one row; the picked one is highlighted */
+#panel .moods {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+#panel .moods button {
+    width: 42px;
+    height: 42px;
+    font-size: 22px;
+    padding: 0;
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#panel .moods button[aria-pressed="true"] {
+    background: var(--accent-soft);
+    border-color: var(--accent);
+    box-shadow: inset 0 0 0 1px var(--accent);
+}
+
+#panel .session {
+    position: relative; /* lets the Delete link pin itself to this card's corner */
+    padding: 10px 12px;
+    ...the rest unchanged...
+}
+
+/* Small  delete link pinned to the top-right of each session card */
+#panel .session .delete {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    padding: 0;
+    background: none;
+    border: 0;
+    color: var(--muted);
+    font: italic 14px var(--body);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 /* ===== PHONES ===== */
 /* Narrow screens: stack the list and panel instead of side by side */
 @media (max-width: 700px) {

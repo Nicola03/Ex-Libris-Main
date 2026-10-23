@@ -35,6 +35,8 @@ const categorySelect = document.getElementById("category");
 const statusSelect = document.getElementById("status");
 const sortSelect = document.getElementById("sort");
 
+let bookSelection = null;
+
 
 // ===== 3. HELPERS =====
 // helper function to create text for book information
@@ -62,7 +64,7 @@ function addField(parent, labelText, control) {
 // Draw one book's reading sessions into a container, newest first
 async function showSessions(book, container) {
     const sessions = await db.sessions.where("bookId").equals(book.goodreads_id).toArray();
-    sessions.sort((a, b) => b.date.localeCompare(a.date));
+    sessions.sort((a, b) => b.date.localeCompare(a.date) || b.id - a.id);
 
     container.replaceChildren();
 
@@ -89,17 +91,42 @@ async function showSessions(book, container) {
         const entry = document.createElement("div");
         entry.className = "session";
         const pageText = session.page ? ` · page ${session.page}` : "";
-        addText(entry, "h4", session.date + pageText);
+        const moodText = session.mood ? session.mood + " " : "";
+
+        addText(entry, "h4", moodText + session.date + pageText);
         if (session.note) {
             addText(entry, "p", session.note);
         }
+
+        // a button to delete this session, then redraw so it disappears
+        const deleteButton = document.createElement("button");
+        deleteButton.textContent = "Delete";
+        deleteButton.className = "delete";
+        deleteButton.addEventListener("click", async () => {
+            await db.sessions.delete(session.id);
+            await showSessions(book, container);
+        });
+        entry.append(deleteButton);
+
         container.append(entry);
     }
 }
 
+// display the highest page number as the default for when logging a session
+async function highestPage(book) {
+    const sessions = await db.sessions.where("bookId").equals(book.goodreads_id).toArray();
+    const pages = sessions.map(s => s.page).filter(p => p);
+
+    if (pages.length === 0) {
+        return null;
+    }
+    
+    return Math.max(...pages);
+}
+
 // ===== 4. MAIN FUNCTIONS =====
 // show book details in the panel
-function showBook(book) {
+async function showBook(book) {
     panel.replaceChildren();
     
     const cover = window.COVERS[book.goodreads_id];
@@ -185,6 +212,7 @@ function showBook(book) {
     addField(form, "Date", sessionDate);
 
     const pageBox = document.createElement("input");
+    pageBox.required = true;
     pageBox.type = "number";
     pageBox.min = 0;
     if (book.pages) {
@@ -194,6 +222,34 @@ function showBook(book) {
 
     const noteBox = document.createElement("textarea");
     addField(form, "Note", noteBox);
+
+    // mood: a row of emoji buttons; the code remembers which one is picked
+    const MOODS = ["😊", "😍", "😂", "🤔", "😢", "😱", "😤", "😴"];
+    let mood = null;
+
+    const moodRow = document.createElement("div");
+    moodRow.className = "moods";
+    for (const emoji of MOODS) {
+        const button = document.createElement("button");
+        button.type = "button"; // don't submit the form when clicked
+        button.textContent = emoji;
+        button.addEventListener("click", () => {
+            // pick this mood, or clear it if it was already picked
+            mood = mood === emoji ? null : emoji;
+            // show which button is on
+            for (const b of moodRow.children) {
+                b.setAttribute("aria-pressed", b.textContent === mood);
+            }
+        });
+        moodRow.append(button);
+    }
+
+    // a div, not a label, so clicking "Mood" doesn't press the first emoji
+    const moodField = document.createElement("div");
+    moodField.className = "field";
+    addText(moodField, "span", "Mood");
+    moodField.append(moodRow);
+    form.append(moodField);
 
     const saveButton = document.createElement("button");
     saveButton.textContent = "Save session";
@@ -216,15 +272,27 @@ function showBook(book) {
             bookId: book.goodreads_id,
             date: sessionDate.value.replaceAll("-", "/"),
             page: pageBox.value === "" ? null : Number(pageBox.value),
-            note: noteBox.value
+            note: noteBox.value,
+            mood: mood
         });
 
         // clear the form for next time, but keep today's date
         form.reset();
         sessionDate.value = today;
 
+        // clear the mood too, and switch all the buttons off
+        mood = null;
+        for (const b of moodRow.children) {
+            b.setAttribute("aria-pressed", false);
+        }
+
         await showSessions(book, sessionList);
+
+        // start the page box on where you're up to, so you only need to change it
+        pageBox.value = (await highestPage(book)) ?? "";
     });
+
+    pageBox.value = (await highestPage(book)) ?? "";
 }
 
 // Draw a list of books on the page
@@ -258,8 +326,14 @@ function showList(booksToShow) {
             list.querySelector(".selected")?.classList.remove("selected");
             // highlight this one, then show its details
             item.classList.add("selected");
+            bookSelection = book;
             showBook(book);
         });
+        
+        // maintain the selected on the book
+        if (book === bookSelection) {
+            item.classList.add("selected");
+        }
 
         // Add the item to the unordered list <ul> so it appears on the page
         list.append(item);
