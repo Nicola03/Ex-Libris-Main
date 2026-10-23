@@ -21,10 +21,12 @@
   "series_number": "1",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Tor Books · Hardcover · 2025",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -49,10 +51,12 @@
   "series_number": null,
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Mulholland Books · Hardcover · 2013",
   "contributors": "Doug Dorst",
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -77,10 +81,12 @@
   "series_number": "1",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Del Rey Books · Mass Market Paperback · 2005",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -105,6 +111,7 @@
   "series_number": null,
   "waterstones": "Not usually stocked",
   "foyles": "Not usually stocked",
+  "blackwells": "Not usually stocked",
   "edition": "Apple · ebook · 2022",
   "contributors": null,
   "waterstones_also": [
@@ -112,6 +119,9 @@
   ],
   "foyles_also": [
    "Film & TV tie-ins"
+  ],
+  "blackwells_also": [
+   "Film & TV"
   ],
   "review": null
  },
@@ -137,12 +147,16 @@
   "series_number": null,
   "waterstones": "Classics",
   "foyles": "Classics",
+  "blackwells": "Classics",
   "edition": "Penguin Classics · Paperback · 2000",
   "contributors": "William Morris, Jesse L. Byock",
   "waterstones_also": [
    "Myths & Legends"
   ],
   "foyles_also": [
+   "Myth & Folklore"
+  ],
+  "blackwells_also": [
    "Myth & Folklore"
   ],
   "review": null
@@ -169,6 +183,7 @@
   "series_number": null,
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Viking · Kindle Edition · 2018",
   "contributors": "Philip Gabriel",
   "waterstones_also": [
@@ -176,6 +191,9 @@
   ],
   "foyles_also": [
    "translated fiction table (bigger shops)"
+  ],
+  "blackwells_also": [
+   "Fiction in translation"
   ],
   "review": null
  },
@@ -201,6 +219,7 @@
   "series_number": null,
   "waterstones": "Horror",
   "foyles": "Horror",
+  "blackwells": "Horror",
   "edition": "Hanover Square Press · Hardcover · 2026",
   "contributors": null,
   "waterstones_also": [
@@ -210,6 +229,10 @@
   "foyles_also": [
    "Science Fiction & Fantasy",
    "Fiction A–Z"
+  ],
+  "blackwells_also": [
+   "Science Fiction & Fantasy",
+   "Fiction"
   ],
   "review": null
  },
@@ -235,10 +258,12 @@
   "series_number": "2",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Tor Books · Hardcover · 2025",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -263,10 +288,12 @@
   "series_number": "1",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Tor · Kindle Edition · 2022",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -291,6 +318,7 @@
   "series_number": null,
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Flatiron Books · Hardcover · 2024",
   "contributors": null,
   "waterstones_also": [
@@ -298,6 +326,9 @@
   ],
   "foyles_also": [
    "Fiction A–Z"
+  ],
+  "blackwells_also": [
+   "Fiction"
   ],
   "review": null
  },
@@ -323,10 +354,12 @@
   "series_number": null,
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Scribner · Paperback · 2022",
   "contributors": "Maggie O'Farrell",
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -353,12 +386,16 @@
   "series_number": "1",
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Doubleday Books · Hardcover · 2018",
   "contributors": null,
   "waterstones_also": [
    "Myths & Legends"
   ],
   "foyles_also": [
+   "Myth & Folklore"
+  ],
+  "blackwells_also": [
    "Myth & Folklore"
   ],
   "review": null
@@ -385,10 +422,12 @@
   "series_number": "1",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Orbit · Paperback · 2019",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -413,10 +452,12 @@
   "series_number": null,
   "waterstones": "Drama",
   "foyles": "Drama",
+  "blackwells": "Drama · Norrington Room",
   "edition": "Faber and Faber · Paperback · 1989",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -441,10 +482,12 @@
   "series_number": null,
   "waterstones": "Drama",
   "foyles": "Drama",
+  "blackwells": "Drama · Norrington Room",
   "edition": "Grove · Paperback · 2011",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -469,10 +512,12 @@
   "series_number": null,
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Vintage · Paperback · 1998",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -497,10 +542,12 @@
   "series_number": null,
   "waterstones": "Travel Writing",
   "foyles": "Travel Writing",
+  "blackwells": "Travel",
   "edition": "Nicholas Brealey Pub · Hardcover · 2014",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -525,12 +572,16 @@
   "series_number": null,
   "waterstones": "Classics",
   "foyles": "Classics",
+  "blackwells": "Classics",
   "edition": "Wildside Press · Paperback · 2003",
   "contributors": null,
   "waterstones_also": [
    "Horror"
   ],
   "foyles_also": [
+   "Horror"
+  ],
+  "blackwells_also": [
    "Horror"
   ],
   "review": null
@@ -557,6 +608,7 @@
   "series_number": "1",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Kindle Edition · 2020",
   "contributors": null,
   "waterstones_also": [
@@ -564,6 +616,9 @@
   ],
   "foyles_also": [
    "Fiction A–Z"
+  ],
+  "blackwells_also": [
+   "Fiction"
   ],
   "review": null
  },
@@ -589,6 +644,7 @@
   "series_number": null,
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Bloomsbury Publishing · Hardcover · 2024",
   "contributors": "Shanna Tan",
   "waterstones_also": [
@@ -596,6 +652,9 @@
   ],
   "foyles_also": [
    "translated fiction table (bigger shops)"
+  ],
+  "blackwells_also": [
+   "Fiction in translation"
   ],
   "review": null
  },
@@ -621,6 +680,7 @@
   "series_number": null,
   "waterstones": "Mind, Body & Spirit",
   "foyles": "Mind, Body & Spirit",
+  "blackwells": "Mind, Body & Spirit",
   "edition": "BPS Pariyatti Editions · Paperback · 2006",
   "contributors": null,
   "waterstones_also": [
@@ -628,6 +688,9 @@
   ],
   "foyles_also": [
    "Religion"
+  ],
+  "blackwells_also": [
+   "Religion · Norrington Room"
   ],
   "review": null
  },
@@ -653,10 +716,12 @@
   "series_number": "1",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Tor Books · Hardcover · 2013",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -681,12 +746,16 @@
   "series_number": null,
   "waterstones": "Drama",
   "foyles": "Drama",
+  "blackwells": "Drama · Norrington Room",
   "edition": "Transworld Publishers · Paperback · 1996",
   "contributors": "Terry Pratchett",
   "waterstones_also": [
    "Science Fiction & Fantasy"
   ],
   "foyles_also": [
+   "Science Fiction & Fantasy"
+  ],
+  "blackwells_also": [
    "Science Fiction & Fantasy"
   ],
   "review": null
@@ -713,10 +782,12 @@
   "series_number": null,
   "waterstones": "Travel Writing",
   "foyles": "Travel Writing",
+  "blackwells": "Travel",
   "edition": "Bantam Press · Hardcover · 2023",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -741,12 +812,14 @@
   "series_number": "2",
   "waterstones": "Romantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Kindle Edition · 2023",
   "contributors": null,
   "waterstones_also": [
    "Science Fiction & Fantasy"
   ],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -771,12 +844,14 @@
   "series_number": "1",
   "waterstones": "Romantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Independently Published · Kindle Edition · 2022",
   "contributors": null,
   "waterstones_also": [
    "Science Fiction & Fantasy"
   ],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -801,12 +876,16 @@
   "series_number": null,
   "waterstones": "Horror",
   "foyles": "Horror",
+  "blackwells": "Horror",
   "edition": "Tor Nightfire · Hardcover · 2021",
   "contributors": null,
   "waterstones_also": [
    "Science Fiction & Fantasy"
   ],
   "foyles_also": [
+   "Science Fiction & Fantasy"
+  ],
+  "blackwells_also": [
    "Science Fiction & Fantasy"
   ],
   "review": null
@@ -833,10 +912,12 @@
   "series_number": null,
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Crown · Hardcover · 2006",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -861,6 +942,7 @@
   "series_number": null,
   "waterstones": "Crime & Thrillers",
   "foyles": "Crime & Thrillers",
+  "blackwells": "Crime & Thrillers",
   "edition": "St. Martin's Press · Hardcover · 2026",
   "contributors": null,
   "waterstones_also": [
@@ -868,6 +950,9 @@
   ],
   "foyles_also": [
    "Fiction A–Z"
+  ],
+  "blackwells_also": [
+   "Fiction"
   ],
   "review": null
  },
@@ -893,10 +978,12 @@
   "series_number": null,
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Ringwood Publishing · Paperback · 2024",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -921,12 +1008,16 @@
   "series_number": null,
   "waterstones": "Horror",
   "foyles": "Horror",
+  "blackwells": "Horror",
   "edition": "Ace · Hardcover · 2012",
   "contributors": null,
   "waterstones_also": [
    "Science Fiction & Fantasy"
   ],
   "foyles_also": [
+   "Science Fiction & Fantasy"
+  ],
+  "blackwells_also": [
    "Science Fiction & Fantasy"
   ],
   "review": null
@@ -953,10 +1044,12 @@
   "series_number": "1",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Tor Books · Hardcover · 2021",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -981,10 +1074,12 @@
   "series_number": "1",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Ryan Cahill · Kindle Edition · 2021",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -1009,10 +1104,12 @@
   "series_number": null,
   "waterstones": "Popular Science",
   "foyles": "Popular Science",
+  "blackwells": "Popular Science",
   "edition": "Dutton · Hardcover · 2024",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -1037,10 +1134,12 @@
   "series_number": null,
   "waterstones": "Popular Science",
   "foyles": "Popular Science",
+  "blackwells": "Popular Science",
   "edition": "Dutton · Hardcover · 2022",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -1065,10 +1164,12 @@
   "series_number": "1",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Harper Voyager · Hardcover · 2023",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -1093,6 +1194,7 @@
   "series_number": null,
   "waterstones": "Classics",
   "foyles": "Classics",
+  "blackwells": "Classics",
   "edition": "University of Chicago Press · Paperback · 1980",
   "contributors": "Anthony C. Yu",
   "waterstones_also": [
@@ -1102,6 +1204,10 @@
   "foyles_also": [
    "Myth & Folklore",
    "translated fiction table (bigger shops)"
+  ],
+  "blackwells_also": [
+   "Myth & Folklore",
+   "Fiction in translation"
   ],
   "review": null
  },
@@ -1127,10 +1233,12 @@
   "series_number": null,
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "William Morrow · Hardcover · 2013",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -1155,10 +1263,12 @@
   "series_number": null,
   "waterstones": "Popular Science",
   "foyles": "Popular Science",
+  "blackwells": "Popular Science",
   "edition": "Doubleday · Hardcover · 2021",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -1183,12 +1293,16 @@
   "series_number": null,
   "waterstones": "Classics",
   "foyles": "Classics",
+  "blackwells": "Classics",
   "edition": "Penguin Classics · Paperback · 2003",
   "contributors": "Matthew Sweet",
   "waterstones_also": [
    "Crime & Thrillers"
   ],
   "foyles_also": [
+   "Crime & Thrillers"
+  ],
+  "blackwells_also": [
    "Crime & Thrillers"
   ],
   "review": null
@@ -1215,12 +1329,16 @@
   "series_number": null,
   "waterstones": "Horror",
   "foyles": "Horror",
+  "blackwells": "Horror",
   "edition": "Berkley · Paperback · 2024",
   "contributors": null,
   "waterstones_also": [
    "Science Fiction & Fantasy"
   ],
   "foyles_also": [
+   "Science Fiction & Fantasy"
+  ],
+  "blackwells_also": [
    "Science Fiction & Fantasy"
   ],
   "review": null
@@ -1247,6 +1365,7 @@
   "series_number": null,
   "waterstones": "Horror",
   "foyles": "Horror",
+  "blackwells": "Horror",
   "edition": "Random House · Paperback · 2000",
   "contributors": null,
   "waterstones_also": [
@@ -1256,6 +1375,10 @@
   "foyles_also": [
    "Science Fiction & Fantasy",
    "Fiction A–Z"
+  ],
+  "blackwells_also": [
+   "Science Fiction & Fantasy",
+   "Fiction"
   ],
   "review": null
  },
@@ -1281,10 +1404,12 @@
   "series_number": null,
   "waterstones": "Travel Writing",
   "foyles": "Travel Writing",
+  "blackwells": "Travel",
   "edition": "Bantam · Paperback · 2006",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -1309,6 +1434,7 @@
   "series_number": null,
   "waterstones": "Classics",
   "foyles": "Classics",
+  "blackwells": "Classics",
   "edition": "New Directions · Paperback · 1958",
   "contributors": "Donald Keene",
   "waterstones_also": [
@@ -1318,6 +1444,10 @@
   "foyles_also": [
    "translated fiction table (bigger shops)",
    "Fiction A–Z"
+  ],
+  "blackwells_also": [
+   "Fiction in translation",
+   "Fiction"
   ],
   "review": null
  },
@@ -1343,10 +1473,12 @@
   "series_number": null,
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Ecco · Hardcover · 2011",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -1371,10 +1503,12 @@
   "series_number": null,
   "waterstones": "Classics",
   "foyles": "Classics",
+  "blackwells": "Classics",
   "edition": "Penguin Books · Paperback · 2006",
   "contributors": "Nicola Bradbury, Hablot Knight Browne",
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -1399,10 +1533,12 @@
   "series_number": "1",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Dandy House · Kindle Edition · 2020",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -1427,12 +1563,14 @@
   "series_number": null,
   "waterstones": "Not usually stocked",
   "foyles": "Not usually stocked",
+  "blackwells": "Not usually stocked",
   "edition": "Seoul Selection · Kindle Edition · 2016",
   "contributors": "Brother Anthony of Taizé, Jinna Park",
   "waterstones_also": [],
   "foyles_also": [
    "Languages department (Charing Cross Road)"
   ],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -1457,10 +1595,12 @@
   "series_number": "1",
   "waterstones": "Teenage & Young Adult",
   "foyles": "Teen & YA",
+  "blackwells": "Young Adult",
   "edition": "Feiwel & Friends · Hardcover · 2024",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -1485,10 +1625,12 @@
   "series_number": null,
   "waterstones": "Classics",
   "foyles": "Classics",
+  "blackwells": "Classics",
   "edition": "Penguin Classics · Paperback · 2003",
   "contributors": "Robin Buss",
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -1513,10 +1655,12 @@
   "series_number": "1",
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Vintage · Paperback · 1997",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -1541,10 +1685,12 @@
   "series_number": null,
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Melville House · Paperback · 2025",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -1569,10 +1715,12 @@
   "series_number": null,
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Saga Press · ebook · 2019",
   "contributors": "Max Gladstone",
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -1597,10 +1745,12 @@
   "series_number": "1",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Orbit · Kindle Edition · 2024",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -1625,10 +1775,12 @@
   "series_number": "1",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Tor Books · Mass Market Paperback · 2005",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -1653,12 +1805,16 @@
   "series_number": null,
   "waterstones": "Classics",
   "foyles": "Classics",
+  "blackwells": "Classics",
   "edition": "Wildside Press · Paperback · 2000",
   "contributors": "Karl Wurf",
   "waterstones_also": [
    "Horror"
   ],
   "foyles_also": [
+   "Horror"
+  ],
+  "blackwells_also": [
    "Horror"
   ],
   "review": null
@@ -1685,10 +1841,12 @@
   "series_number": null,
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Del Rey · Hardcover · 2026",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -1713,10 +1871,12 @@
   "series_number": "3",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Orbit · Hardcover · 2025",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -1741,10 +1901,12 @@
   "series_number": "1",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Del Rey · Hardcover · 2023",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": "This was an utterly enchanting read that captivated me with its quiet, steady charm. Instead of the high-stakes intensity you might find in epic fantasy, this book offers something equally compelling—a gentle yet deeply immersive journey into a world steeped in folklore and magic.\n\nThe dark fairytale vibes reminded me of Grimm stories, but with a touch of academic intrigue that felt fresh and unique. The faeries are portrayed with a perfect balance of wonder and danger, and the academic focus throughout was such a refreshing twist—it gave the story a grounded, thoughtful quality that I really loved.\n\nReading this novel felt like curling up alongside the main character in her cozy hut, observing her fascinating exploration of the faerie realm. The dynamic between the two main characters added warmth and humor to the story, and the world-building around the town and its people was one of the most delightful aspects.\n\nThis book is like a warm cup of tea on a cold day—comforting, magical, and utterly delightful. I’d recommend it to anyone who loves folklore, immersive worlds, and stories that wrap you up in their charm without needing to shout for your attention."
  },
  {
@@ -1769,10 +1931,12 @@
   "series_number": "2",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Del Rey · Kindle Edition · 2024",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -1797,10 +1961,12 @@
   "series_number": null,
   "waterstones": "Popular Science",
   "foyles": "Popular Science",
+  "blackwells": "Popular Science",
   "edition": "W. W. Norton & Company · Paperback · 2018",
   "contributors": "Ralph Leighton, Edward Hutchings, Bill Gates",
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -1825,10 +1991,12 @@
   "series_number": null,
   "waterstones": "Popular Science",
   "foyles": "Popular Science",
+  "blackwells": "Popular Science",
   "edition": "Princeton University Press · Paperback · 1988",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -1853,10 +2021,12 @@
   "series_number": null,
   "waterstones": "Popular Science",
   "foyles": "Popular Science",
+  "blackwells": "Popular Science",
   "edition": "Basic Books · Paperback · 1995",
   "contributors": "Paul C.W. Davies",
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -1881,10 +2051,12 @@
   "series_number": null,
   "waterstones": "Popular Science",
   "foyles": "Popular Science",
+  "blackwells": "Popular Science",
   "edition": "Basic Books · Paperback · 2005",
   "contributors": "Roger Penrose",
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -1909,6 +2081,7 @@
   "series_number": null,
   "waterstones": "Art & Design",
   "foyles": "Art & Design",
+  "blackwells": "Art & Design · 2nd floor",
   "edition": "Random House Trade Paperbacks · Paperback · 2004",
   "contributors": null,
   "waterstones_also": [
@@ -1916,6 +2089,9 @@
   ],
   "foyles_also": [
    "History"
+  ],
+  "blackwells_also": [
+   "History · Norrington Room"
   ],
   "review": null
  },
@@ -1941,6 +2117,7 @@
   "series_number": null,
   "waterstones": "Classics",
   "foyles": "Classics",
+  "blackwells": "Classics",
   "edition": "Scribner · Paperback · 2025",
   "contributors": null,
   "waterstones_also": [
@@ -1948,6 +2125,9 @@
   ],
   "foyles_also": [
    "Fiction A–Z"
+  ],
+  "blackwells_also": [
+   "Fiction"
   ],
   "review": null
  },
@@ -1973,12 +2153,16 @@
   "series_number": null,
   "waterstones": "Horror",
   "foyles": "Horror",
+  "blackwells": "Horror",
   "edition": "Orion Publishing Co · Hardcover · 2023",
   "contributors": null,
   "waterstones_also": [
    "Science Fiction & Fantasy"
   ],
   "foyles_also": [
+   "Science Fiction & Fantasy"
+  ],
+  "blackwells_also": [
    "Science Fiction & Fantasy"
   ],
   "review": null
@@ -2005,6 +2189,7 @@
   "series_number": null,
   "waterstones": "Languages & Reference",
   "foyles": "Languages",
+  "blackwells": "Languages · Norrington Room",
   "edition": "Crown · Hardcover · 2026",
   "contributors": null,
   "waterstones_also": [
@@ -2012,6 +2197,9 @@
   ],
   "foyles_also": [
    "History"
+  ],
+  "blackwells_also": [
+   "History · Norrington Room"
   ],
   "review": null
  },
@@ -2037,12 +2225,16 @@
   "series_number": null,
   "waterstones": "Mind, Body & Spirit",
   "foyles": "Mind, Body & Spirit",
+  "blackwells": "Mind, Body & Spirit",
   "edition": "Gildan Media LLC · Audible Audio · 2017",
   "contributors": "Francesc Miralles, Walter Dixon",
   "waterstones_also": [
    "Self-Help"
   ],
   "foyles_also": [
+   "Self-Help"
+  ],
+  "blackwells_also": [
    "Self-Help"
   ],
   "review": null
@@ -2069,12 +2261,16 @@
   "series_number": null,
   "waterstones": "Mind, Body & Spirit",
   "foyles": "Mind, Body & Spirit",
+  "blackwells": "Mind, Body & Spirit",
   "edition": "Quercus · Hardcover · 2020",
   "contributors": "Francesc Miralles",
   "waterstones_also": [
    "Self-Help"
   ],
   "foyles_also": [
+   "Self-Help"
+  ],
+  "blackwells_also": [
    "Self-Help"
   ],
   "review": null
@@ -2101,10 +2297,12 @@
   "series_number": "1",
   "waterstones": "Poetry",
   "foyles": "Poetry",
+  "blackwells": "Poetry · Norrington Room",
   "edition": "Little, Brown Books for Young Readers · Hardcover · 2025",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -2129,12 +2327,14 @@
   "series_number": "1",
   "waterstones": "Romantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Orbit · Paperback · 2022",
   "contributors": null,
   "waterstones_also": [
    "Science Fiction & Fantasy"
   ],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -2159,12 +2359,14 @@
   "series_number": "1",
   "waterstones": "Romantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Orbit · Hardcover · 2025",
   "contributors": null,
   "waterstones_also": [
    "Science Fiction & Fantasy"
   ],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -2189,10 +2391,12 @@
   "series_number": null,
   "waterstones": "Classics",
   "foyles": "Classics",
+  "blackwells": "Classics",
   "edition": "The Feminist Press at CUNY · Paperback · 1996",
   "contributors": "Elaine R. Hedges",
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -2217,6 +2421,7 @@
   "series_number": null,
   "waterstones": "Classics",
   "foyles": "Classics",
+  "blackwells": "Classics",
   "edition": "Penguin Books · Paperback · 1999",
   "contributors": null,
   "waterstones_also": [
@@ -2224,6 +2429,9 @@
   ],
   "foyles_also": [
    "Fiction A–Z"
+  ],
+  "blackwells_also": [
+   "Fiction"
   ],
   "review": null
  },
@@ -2249,10 +2457,12 @@
   "series_number": "1",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Tor Books · Mass Market Paperback · 2003",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -2277,6 +2487,7 @@
   "series_number": null,
   "waterstones": "Nature Writing",
   "foyles": "Nature Writing",
+  "blackwells": "Nature Writing",
   "edition": "Hodder & Stoughton · Kindle Edition · 2014",
   "contributors": null,
   "waterstones_also": [
@@ -2284,6 +2495,10 @@
    "Travel"
   ],
   "foyles_also": [
+   "Travel"
+  ],
+  "blackwells_also": [
+   "Popular Science",
    "Travel"
   ],
   "review": null
@@ -2310,10 +2525,12 @@
   "series_number": null,
   "waterstones": "History",
   "foyles": "History",
+  "blackwells": "History · Norrington Room",
   "edition": "Doubleday · Hardcover · 2023",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -2338,12 +2555,16 @@
   "series_number": "1",
   "waterstones": "Horror",
   "foyles": "Horror",
+  "blackwells": "Horror",
   "edition": "Run For It · Hardcover · 2017",
   "contributors": null,
   "waterstones_also": [
    "Science Fiction & Fantasy"
   ],
   "foyles_also": [
+   "Science Fiction & Fantasy"
+  ],
+  "blackwells_also": [
    "Science Fiction & Fantasy"
   ],
   "review": null
@@ -2370,10 +2591,12 @@
   "series_number": null,
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Canongate Books · Hardcover · 2003",
   "contributors": "Janice Galloway",
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -2398,10 +2621,12 @@
   "series_number": null,
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Paperback · 2004",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -2426,10 +2651,12 @@
   "series_number": null,
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Ace · Paperback · 2000",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -2454,10 +2681,12 @@
   "series_number": "1",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Orbit · Hardcover · 2021",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -2482,6 +2711,7 @@
   "series_number": null,
   "waterstones": "Health & Wellbeing",
   "foyles": "Health",
+  "blackwells": "Health",
   "edition": "Penguin Life · Paperback · 2016",
   "contributors": null,
   "waterstones_also": [
@@ -2491,6 +2721,10 @@
   "foyles_also": [
    "Self-Help",
    "Biography & Memoir"
+  ],
+  "blackwells_also": [
+   "Self-Help",
+   "Biography"
   ],
   "review": null
  },
@@ -2516,12 +2750,16 @@
   "series_number": null,
   "waterstones": "Self-Help",
   "foyles": "Self-Help",
+  "blackwells": "Self-Help",
   "edition": "Apple TV · ebook · 2025",
   "contributors": null,
   "waterstones_also": [
    "Mind, Body & Spirit"
   ],
   "foyles_also": [
+   "Mind, Body & Spirit"
+  ],
+  "blackwells_also": [
    "Mind, Body & Spirit"
   ],
   "review": null
@@ -2548,12 +2786,16 @@
   "series_number": null,
   "waterstones": "Mind, Body & Spirit",
   "foyles": "Mind, Body & Spirit",
+  "blackwells": "Mind, Body & Spirit",
   "edition": "RANDOM HOUSE UK · Paperback · 2017",
   "contributors": null,
   "waterstones_also": [
    "Self-Help"
   ],
   "foyles_also": [
+   "Self-Help"
+  ],
+  "blackwells_also": [
    "Self-Help"
   ],
   "review": null
@@ -2580,10 +2822,12 @@
   "series_number": null,
   "waterstones": "Teenage & Young Adult",
   "foyles": "Teen & YA",
+  "blackwells": "Young Adult",
   "edition": "Macmillan Children's Books · Hardcover · 2019",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -2608,6 +2852,7 @@
   "series_number": "1",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Viking Penguin · Hardcover · 2011",
   "contributors": null,
   "waterstones_also": [
@@ -2617,6 +2862,9 @@
   "foyles_also": [
    "Fiction A–Z",
    "Romantasy"
+  ],
+  "blackwells_also": [
+   "Fiction"
   ],
   "review": null
  },
@@ -2642,10 +2890,12 @@
   "series_number": null,
   "waterstones": "History",
   "foyles": "History",
+  "blackwells": "History · Norrington Room",
   "edition": "Bookmarks · Paperback · 1999",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -2670,6 +2920,7 @@
   "series_number": null,
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Tor Books · Hardcover · 2025",
   "contributors": null,
   "waterstones_also": [
@@ -2677,6 +2928,9 @@
   ],
   "foyles_also": [
    "Fiction A–Z"
+  ],
+  "blackwells_also": [
+   "Fiction"
   ],
   "review": null
  },
@@ -2702,10 +2956,12 @@
   "series_number": null,
   "waterstones": "Popular Science",
   "foyles": "Popular Science",
+  "blackwells": "Popular Science",
   "edition": "Bantam Books · Paperback · 1998",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -2732,12 +2988,16 @@
   "series_number": null,
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Harper · Hardcover · 2021",
   "contributors": null,
   "waterstones_also": [
    "Myths & Legends"
   ],
   "foyles_also": [
+   "Myth & Folklore"
+  ],
+  "blackwells_also": [
    "Myth & Folklore"
   ],
   "review": null
@@ -2764,12 +3024,16 @@
   "series_number": null,
   "waterstones": "Home & Garden",
   "foyles": "Home & Garden",
+  "blackwells": "Home & Garden",
   "edition": "Do Books · Kindle Edition · 2025",
   "contributors": null,
   "waterstones_also": [
    "Crafts & Hobbies"
   ],
   "foyles_also": [
+   "Crafts & Hobbies"
+  ],
+  "blackwells_also": [
    "Crafts & Hobbies"
   ],
   "review": null
@@ -2796,12 +3060,16 @@
   "series_number": null,
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Ace · Hardcover · 2024",
   "contributors": null,
   "waterstones_also": [
    "Horror"
   ],
   "foyles_also": [
+   "Horror"
+  ],
+  "blackwells_also": [
    "Horror"
   ],
   "review": null
@@ -2828,12 +3096,16 @@
   "series_number": null,
   "waterstones": "Health & Wellbeing",
   "foyles": "Health",
+  "blackwells": "Health",
   "edition": "Kindle Edition · 2025",
   "contributors": null,
   "waterstones_also": [
    "order in at the till"
   ],
   "foyles_also": [
+   "order in at the till"
+  ],
+  "blackwells_also": [
    "order in at the till"
   ],
   "review": null
@@ -2860,12 +3132,16 @@
   "series_number": null,
   "waterstones": "Horror",
   "foyles": "Horror",
+  "blackwells": "Horror",
   "edition": "Macmillan UK · Paperback · 1999",
   "contributors": null,
   "waterstones_also": [
    "Science Fiction & Fantasy"
   ],
   "foyles_also": [
+   "Science Fiction & Fantasy"
+  ],
+  "blackwells_also": [
    "Science Fiction & Fantasy"
   ],
   "review": null
@@ -2892,6 +3168,7 @@
   "series_number": "1",
   "waterstones": "Crime & Thrillers",
   "foyles": "Crime & Thrillers",
+  "blackwells": "Crime & Thrillers",
   "edition": "Soho Crime · Paperback · 2020",
   "contributors": null,
   "waterstones_also": [
@@ -2899,6 +3176,9 @@
   ],
   "foyles_also": [
    "Fiction A–Z"
+  ],
+  "blackwells_also": [
+   "Fiction"
   ],
   "review": null
  },
@@ -2924,6 +3204,7 @@
   "series_number": null,
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Yen On · Hardcover · 2019",
   "contributors": "Sam Bett",
   "waterstones_also": [
@@ -2931,6 +3212,9 @@
   ],
   "foyles_also": [
    "translated fiction table (bigger shops)"
+  ],
+  "blackwells_also": [
+   "Fiction in translation"
   ],
   "review": null
  },
@@ -2956,12 +3240,16 @@
   "series_number": null,
   "waterstones": "Children's 9–12",
   "foyles": "Children's 9–12",
+  "blackwells": "Children's",
   "edition": "Hyperion Avenue · Hardcover · 2024",
   "contributors": null,
   "waterstones_also": [
    "Graphic Novels & Manga"
   ],
   "foyles_also": [
+   "Graphic Novels"
+  ],
+  "blackwells_also": [
    "Graphic Novels"
   ],
   "review": null
@@ -2988,10 +3276,12 @@
   "series_number": null,
   "waterstones": "Classics",
   "foyles": "Classics",
+  "blackwells": "Classics",
   "edition": "Independently published · Paperback · 2025",
   "contributors": "John Oxenford",
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -3016,10 +3306,12 @@
   "series_number": null,
   "waterstones": "Classics",
   "foyles": "Classics",
+  "blackwells": "Classics",
   "edition": "Oxford University Press · Paperback · 1999",
   "contributors": "John Carey",
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -3044,12 +3336,16 @@
   "series_number": null,
   "waterstones": "Classics",
   "foyles": "Classics",
+  "blackwells": "Classics",
   "edition": "Penguin Classics · Paperback · 1999",
   "contributors": "Robert Fagles, Bernard Knox",
   "waterstones_also": [
    "Myths & Legends"
   ],
   "foyles_also": [
+   "Myth & Folklore"
+  ],
+  "blackwells_also": [
    "Myth & Folklore"
   ],
   "review": null
@@ -3076,12 +3372,16 @@
   "series_number": null,
   "waterstones": "Classics",
   "foyles": "Classics",
+  "blackwells": "Classics",
   "edition": "Penguin Classics · Paperback · 2006",
   "contributors": "Robert Fagles, Bernard Knox",
   "waterstones_also": [
    "Myths & Legends"
   ],
   "foyles_also": [
+   "Myth & Folklore"
+  ],
+  "blackwells_also": [
    "Myth & Folklore"
   ],
   "review": null
@@ -3108,10 +3408,12 @@
   "series_number": null,
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Tor Books · Hardcover · 2023",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -3136,10 +3438,12 @@
   "series_number": "0",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Kindle Edition · 2026",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -3164,12 +3468,16 @@
   "series_number": null,
   "waterstones": "Classics",
   "foyles": "Classics",
+  "blackwells": "Classics",
   "edition": "Penguin Books · Paperback · 1994",
   "contributors": null,
   "waterstones_also": [
    "Horror"
   ],
   "foyles_also": [
+   "Horror"
+  ],
+  "blackwells_also": [
    "Horror"
   ],
   "review": null
@@ -3196,12 +3504,16 @@
   "series_number": null,
   "waterstones": "Classics",
   "foyles": "Classics",
+  "blackwells": "Classics",
   "edition": "Oxford University Press · Paperback · 2008",
   "contributors": "T.J. Lustig",
   "waterstones_also": [
    "Horror"
   ],
   "foyles_also": [
+   "Horror"
+  ],
+  "blackwells_also": [
    "Horror"
   ],
   "review": null
@@ -3228,6 +3540,7 @@
   "series_number": null,
   "waterstones": "Myths & Legends",
   "foyles": "Myth & Folklore",
+  "blackwells": "Myth & Folklore",
   "edition": "Penguin Books · Paperback · 1997",
   "contributors": "Barbara Brown, Andrew Lang, John Lorne Campbell, Elizabeth W. Grierson, Joseph Jacobs, John Buchan, Alasdair Maclean, James Hogg, George MacDonald, Arthur Conan Doyle",
   "waterstones_also": [
@@ -3235,6 +3548,9 @@
   ],
   "foyles_also": [
    "Local / Scottish interest"
+  ],
+  "blackwells_also": [
+   "Local interest"
   ],
   "review": null
  },
@@ -3260,10 +3576,12 @@
   "series_number": null,
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Del Rey · Hardcover · 2022",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -3288,10 +3606,12 @@
   "series_number": null,
   "waterstones": "Classics",
   "foyles": "Classics",
+  "blackwells": "Classics",
   "edition": "2008",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -3316,10 +3636,12 @@
   "series_number": null,
   "waterstones": "Classics",
   "foyles": "Classics",
+  "blackwells": "Classics",
   "edition": "Schocken Books · Paperback · 1974",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -3344,10 +3666,12 @@
   "series_number": null,
   "waterstones": "Classics",
   "foyles": "Classics",
+  "blackwells": "Classics",
   "edition": null,
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -3372,10 +3696,12 @@
   "series_number": null,
   "waterstones": "Classics",
   "foyles": "Classics",
+  "blackwells": "Classics",
   "edition": "CreateSpace Independent Publishing Platform · Paperback · 2013",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -3400,10 +3726,12 @@
   "series_number": null,
   "waterstones": "Classics",
   "foyles": "Classics",
+  "blackwells": "Classics",
   "edition": "Bantam Classics · Mass Market Paperback · 1972",
   "contributors": "Stanley Corngold",
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -3428,10 +3756,12 @@
   "series_number": null,
   "waterstones": "Classics",
   "foyles": "Classics",
+  "blackwells": "Classics",
   "edition": "Schocken Books · Hardcover · 1946",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -3456,10 +3786,12 @@
   "series_number": "1",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Harper Voyager · Hardcover · 2023",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -3484,6 +3816,7 @@
   "series_number": null,
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Hogarth · Hardcover · 2016",
   "contributors": "Deborah Smith",
   "waterstones_also": [
@@ -3491,6 +3824,9 @@
   ],
   "foyles_also": [
    "translated fiction table (bigger shops)"
+  ],
+  "blackwells_also": [
+   "Fiction in translation"
   ],
   "review": null
  },
@@ -3516,6 +3852,7 @@
   "series_number": null,
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Hogarth · Hardcover · 2019",
   "contributors": "Deborah Smith",
   "waterstones_also": [
@@ -3523,6 +3860,9 @@
   ],
   "foyles_also": [
    "translated fiction table (bigger shops)"
+  ],
+  "blackwells_also": [
+   "Fiction in translation"
   ],
   "review": null
  },
@@ -3548,10 +3888,12 @@
   "series_number": null,
   "waterstones": "Travel Writing",
   "foyles": "Travel Writing",
+  "blackwells": "Travel",
   "edition": "Vintage · Paperback · 2002",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -3576,12 +3918,16 @@
   "series_number": null,
   "waterstones": "Teenage & Young Adult",
   "foyles": "Teen & YA",
+  "blackwells": "Young Adult",
   "edition": "Oneworld Publications · Paperback",
   "contributors": "Jay Kristoff",
   "waterstones_also": [
    "Science Fiction & Fantasy"
   ],
   "foyles_also": [
+   "Science Fiction & Fantasy"
+  ],
+  "blackwells_also": [
    "Science Fiction & Fantasy"
   ],
   "review": null
@@ -3608,12 +3954,16 @@
   "series_number": null,
   "waterstones": "Health & Wellbeing",
   "foyles": "Health",
+  "blackwells": "Health",
   "edition": "Isohan Publishing · Paperback · 2025",
   "contributors": null,
   "waterstones_also": [
    "order in at the till"
   ],
   "foyles_also": [
+   "order in at the till"
+  ],
+  "blackwells_also": [
    "order in at the till"
   ],
   "review": null
@@ -3640,12 +3990,16 @@
   "series_number": null,
   "waterstones": "Horror",
   "foyles": "Horror",
+  "blackwells": "Horror",
   "edition": "Erewhon Books · Hardcover · 2024",
   "contributors": null,
   "waterstones_also": [
    "Science Fiction & Fantasy"
   ],
   "foyles_also": [
+   "Science Fiction & Fantasy"
+  ],
+  "blackwells_also": [
    "Science Fiction & Fantasy"
   ],
   "review": null
@@ -3672,6 +4026,7 @@
   "series_number": null,
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Houghton Mifflin Harcourt · Hardcover · 2012",
   "contributors": "Charles La Shure",
   "waterstones_also": [
@@ -3679,6 +4034,9 @@
   ],
   "foyles_also": [
    "translated fiction table (bigger shops)"
+  ],
+  "blackwells_also": [
+   "Fiction in translation"
   ],
   "review": null
  },
@@ -3704,6 +4062,7 @@
   "series_number": null,
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Harcourt · Paperback · 2007",
   "contributors": "Chi-Young Kim",
   "waterstones_also": [
@@ -3711,6 +4070,9 @@
   ],
   "foyles_also": [
    "translated fiction table (bigger shops)"
+  ],
+  "blackwells_also": [
+   "Fiction in translation"
   ],
   "review": null
  },
@@ -3736,6 +4098,7 @@
   "series_number": null,
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Mariner Books · Paperback · 2010",
   "contributors": "Chi-Young Kim",
   "waterstones_also": [
@@ -3744,6 +4107,10 @@
   ],
   "foyles_also": [
    "translated fiction table (bigger shops)",
+   "Crime & Thrillers"
+  ],
+  "blackwells_also": [
+   "Fiction in translation",
    "Crime & Thrillers"
   ],
   "review": null
@@ -3770,6 +4137,7 @@
   "series_number": null,
   "waterstones": "Horror",
   "foyles": "Horror",
+  "blackwells": "Horror",
   "edition": "Penguin Signet · Paperback · 1996",
   "contributors": null,
   "waterstones_also": [
@@ -3779,6 +4147,10 @@
   "foyles_also": [
    "Science Fiction & Fantasy",
    "Fiction A–Z"
+  ],
+  "blackwells_also": [
+   "Science Fiction & Fantasy",
+   "Fiction"
   ],
   "review": null
  },
@@ -3804,12 +4176,16 @@
   "series_number": null,
   "waterstones": "Horror",
   "foyles": "Horror",
+  "blackwells": "Horror",
   "edition": "Tor Nightfire · Hardcover · 2023",
   "contributors": null,
   "waterstones_also": [
    "Science Fiction & Fantasy"
   ],
   "foyles_also": [
+   "Science Fiction & Fantasy"
+  ],
+  "blackwells_also": [
    "Science Fiction & Fantasy"
   ],
   "review": null
@@ -3836,10 +4212,12 @@
   "series_number": null,
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Tor Books · Hardcover · 2024",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -3864,10 +4242,12 @@
   "series_number": null,
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Argyll Productions · Paperback · 2020",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -3892,10 +4272,12 @@
   "series_number": null,
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Tor Books · Hardcover · 2022",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -3920,12 +4302,16 @@
   "series_number": null,
   "waterstones": "Horror",
   "foyles": "Horror",
+  "blackwells": "Horror",
   "edition": "Saga Press · Paperback · 2020",
   "contributors": null,
   "waterstones_also": [
    "Science Fiction & Fantasy"
   ],
   "foyles_also": [
+   "Science Fiction & Fantasy"
+  ],
+  "blackwells_also": [
    "Science Fiction & Fantasy"
   ],
   "review": null
@@ -3952,6 +4338,7 @@
   "series_number": null,
   "waterstones": "Myths & Legends",
   "foyles": "Myth & Folklore",
+  "blackwells": "Myth & Folklore",
   "edition": "The History Press · Kindle Edition · 2017",
   "contributors": null,
   "waterstones_also": [
@@ -3959,6 +4346,9 @@
   ],
   "foyles_also": [
    "Local / Scottish interest"
+  ],
+  "blackwells_also": [
+   "Local interest"
   ],
   "review": null
  },
@@ -3984,10 +4374,12 @@
   "series_number": null,
   "waterstones": "Not usually stocked",
   "foyles": "Not usually stocked",
+  "blackwells": "Not usually stocked",
   "edition": "Vossiuspers UvA · Paperback · 2007",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -4012,6 +4404,7 @@
   "series_number": null,
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Harper Voyager · Hardcover · 2022",
   "contributors": null,
   "waterstones_also": [
@@ -4019,6 +4412,9 @@
   ],
   "foyles_also": [
    "Fiction A–Z"
+  ],
+  "blackwells_also": [
+   "Fiction"
   ],
   "review": null
  },
@@ -4044,12 +4440,16 @@
   "series_number": null,
   "waterstones": "History",
   "foyles": "History",
+  "blackwells": "History · Norrington Room",
   "edition": "Vintage/Ebury · Paperback · 1999",
   "contributors": null,
   "waterstones_also": [
    "Food & Drink"
   ],
   "foyles_also": [
+   "Food & Drink"
+  ],
+  "blackwells_also": [
    "Food & Drink"
   ],
   "review": null
@@ -4076,6 +4476,7 @@
   "series_number": "1",
   "waterstones": "Children's 9–12",
   "foyles": "Children's 9–12",
+  "blackwells": "Children's",
   "edition": "Square Fish · Paperback · 2017",
   "contributors": null,
   "waterstones_also": [
@@ -4084,6 +4485,7 @@
   "foyles_also": [
    "Children's Classics"
   ],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -4108,10 +4510,12 @@
   "series_number": "1",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Robot Dinosaur Press · Paperback · 2024",
   "contributors": "Soren Häxan",
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -4136,10 +4540,12 @@
   "series_number": null,
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Penguin Books · Paperback · 2019",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -4164,10 +4570,12 @@
   "series_number": "1",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Orbit · Paperback · 2018",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -4192,10 +4600,12 @@
   "series_number": null,
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Grand Central Publishing · Kindle Edition · 2017",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -4220,12 +4630,14 @@
   "series_number": null,
   "waterstones": "Not usually stocked",
   "foyles": "Not usually stocked",
+  "blackwells": "Not usually stocked",
   "edition": "팩토리나인 · Paperback · 2020",
   "contributors": "이미예",
   "waterstones_also": [],
   "foyles_also": [
    "Languages department (Charing Cross Road)"
   ],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -4252,10 +4664,12 @@
   "series_number": null,
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Henry Holt and Co. · Hardcover · 2024",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -4280,12 +4694,16 @@
   "series_number": null,
   "waterstones": "Classics",
   "foyles": "Classics",
+  "blackwells": "Classics",
   "edition": "Penguin Classics · Paperback · 1998",
   "contributors": null,
   "waterstones_also": [
    "Horror"
   ],
   "foyles_also": [
+   "Horror"
+  ],
+  "blackwells_also": [
    "Horror"
   ],
   "review": null
@@ -4312,6 +4730,7 @@
   "series_number": null,
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "CHATTO & WINDUS · Paperback · 2018",
   "contributors": null,
   "waterstones_also": [
@@ -4319,6 +4738,9 @@
   ],
   "foyles_also": [
    "translated fiction table (bigger shops)"
+  ],
+  "blackwells_also": [
+   "Fiction in translation"
   ],
   "review": null
  },
@@ -4344,10 +4766,12 @@
   "series_number": "1",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "DAW · Hardcover · 2024",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -4372,12 +4796,14 @@
   "series_number": null,
   "waterstones": "Romantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Knopf Books for Young Readers · Kindle Edition · 2025",
   "contributors": null,
   "waterstones_also": [
    "Science Fiction & Fantasy"
   ],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -4402,12 +4828,16 @@
   "series_number": null,
   "waterstones": "Biography & Memoir",
   "foyles": "Biography & Memoir",
+  "blackwells": "Biography",
   "edition": "W. W. Norton & Company · Paperback · 2018",
   "contributors": null,
   "waterstones_also": [
    "Nature Writing"
   ],
   "foyles_also": [
+   "Nature Writing"
+  ],
+  "blackwells_also": [
    "Nature Writing"
   ],
   "review": null
@@ -4434,6 +4864,7 @@
   "series_number": null,
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "New Directions · Paperback · 2012",
   "contributors": "Stefan Tobler, Benjamin Moser",
   "waterstones_also": [
@@ -4441,6 +4872,9 @@
   ],
   "foyles_also": [
    "translated fiction table (bigger shops)"
+  ],
+  "blackwells_also": [
+   "Fiction in translation"
   ],
   "review": null
  },
@@ -4466,6 +4900,7 @@
   "series_number": null,
   "waterstones": "Horror",
   "foyles": "Horror",
+  "blackwells": "Horror",
   "edition": "Sentinel Creatives · Kindle Edition · 2023",
   "contributors": null,
   "waterstones_also": [
@@ -4475,6 +4910,10 @@
   "foyles_also": [
    "Science Fiction & Fantasy",
    "Fiction A–Z"
+  ],
+  "blackwells_also": [
+   "Science Fiction & Fantasy",
+   "Fiction"
   ],
   "review": null
  },
@@ -4500,10 +4939,12 @@
   "series_number": null,
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Knopf Canada · Hardcover · 2022",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -4528,10 +4969,12 @@
   "series_number": null,
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Doubleday · Kindle Edition · 2023",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -4556,10 +4999,12 @@
   "series_number": null,
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Orbit · Paperback · 2024",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -4584,12 +5029,16 @@
   "series_number": null,
   "waterstones": "Classics",
   "foyles": "Classics",
+  "blackwells": "Classics",
   "edition": "Nabu Press · Paperback · 2010",
   "contributors": null,
   "waterstones_also": [
    "Myths & Legends"
   ],
   "foyles_also": [
+   "Myth & Folklore"
+  ],
+  "blackwells_also": [
    "Myth & Folklore"
   ],
   "review": null
@@ -4616,10 +5065,12 @@
   "series_number": "1",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Bantam · Mass Market Paperback · 2005",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -4644,10 +5095,12 @@
   "series_number": "1",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Random House Worlds · Hardcover · 2018",
   "contributors": "Doug Wheatley",
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -4672,10 +5125,12 @@
   "series_number": "1",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Del Rey · Paperback · 2005",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -4700,10 +5155,12 @@
   "series_number": null,
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Vintage Books · Paperback · 2010",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -4728,10 +5185,12 @@
   "series_number": "1",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Orbit · Hardcover · 2013",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -4756,10 +5215,12 @@
   "series_number": "1",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Orbit · Hardcover · 2017",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -4784,10 +5245,12 @@
   "series_number": "3",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Orbit · Hardcover · 2015",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -4812,10 +5275,12 @@
   "series_number": "2",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Orbit · Hardcover · 2014",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -4840,12 +5305,16 @@
   "series_number": "1",
   "waterstones": "Horror",
   "foyles": "Horror",
+  "blackwells": "Horror",
   "edition": "Avon Books · Mass Market Paperback · 1983",
   "contributors": null,
   "waterstones_also": [
    "Science Fiction & Fantasy"
   ],
   "foyles_also": [
+   "Science Fiction & Fantasy"
+  ],
+  "blackwells_also": [
    "Science Fiction & Fantasy"
   ],
   "review": null
@@ -4872,10 +5341,12 @@
   "series_number": "1",
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Pocket Books · Mass Market Paperback · 1999",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -4900,10 +5371,12 @@
   "series_number": null,
   "waterstones": "Graphic Novels & Manga",
   "foyles": "Graphic Novels",
+  "blackwells": "Graphic Novels",
   "edition": "Dark Horse Books · Hardcover · 2018",
   "contributors": "Matthew Colville, Olivia Samson, Chris Northrop",
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -4930,6 +5403,7 @@
   "series_number": null,
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Little, Brown and Company · Hardcover · 2018",
   "contributors": null,
   "waterstones_also": [
@@ -4937,6 +5411,10 @@
    "Science Fiction & Fantasy"
   ],
   "foyles_also": [
+   "Myth & Folklore",
+   "Science Fiction & Fantasy"
+  ],
+  "blackwells_also": [
    "Myth & Folklore",
    "Science Fiction & Fantasy"
   ],
@@ -4964,10 +5442,12 @@
   "series_number": "1",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Monolith Books · Kindle Edition · 2020",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -4992,6 +5472,7 @@
   "series_number": "1",
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Ballantine Books · Hardcover · 2024",
   "contributors": "Jesse Kirkwood",
   "waterstones_also": [
@@ -4999,6 +5480,9 @@
   ],
   "foyles_also": [
    "translated fiction table (bigger shops)"
+  ],
+  "blackwells_also": [
+   "Fiction in translation"
   ],
   "review": null
  },
@@ -5024,6 +5508,7 @@
   "series_number": null,
   "waterstones": "Crime & Thrillers",
   "foyles": "Crime & Thrillers",
+  "blackwells": "Crime & Thrillers",
   "edition": "Riverhead Books · Hardcover · 2024",
   "contributors": null,
   "waterstones_also": [
@@ -5031,6 +5516,9 @@
   ],
   "foyles_also": [
    "Fiction A–Z"
+  ],
+  "blackwells_also": [
+   "Fiction"
   ],
   "review": null
  },
@@ -5056,6 +5544,7 @@
   "series_number": null,
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Counterpoint Press · Paperback · 2021",
   "contributors": "Jocelyne Allen",
   "waterstones_also": [
@@ -5065,6 +5554,10 @@
   "foyles_also": [
    "translated fiction table (bigger shops)",
    "Teen & YA"
+  ],
+  "blackwells_also": [
+   "Fiction in translation",
+   "Young Adult"
   ],
   "review": null
  },
@@ -5090,10 +5583,12 @@
   "series_number": "1",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Tor · Hardcover · 2019",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": "This has been an absolute delight to read and has quickly become one of my all-time favorite books. The world-building is beyond anything I’ve read in a while, with the necromancer techniques being so intricate and detailed that they pull you right into the story. Every chapter reveals something new and keeps you hooked.\n\nThe character progression is phenomenal. Gideon’s sarcastic, badass attitude pairs perfectly with Harrow’s complexity, and watching their relationship evolve is so satisfying. The blend of humor, dark themes, and mystery is just perfectly balanced. There’s a tension throughout the book that keeps you on the edge of your seat, and the reveals? Absolutely jaw-dropping.\n\nIt’s also one of those rare books that manages to mix sci-fi and fantasy in a way that feels seamless. I was completely immersed from beginning to end, and the twists are brilliantly executed. This book has everything I love: vivid characters, dark humor, and a world that feels like it could expand forever. I cannot recommend it enough!"
  },
  {
@@ -5118,10 +5613,12 @@
   "series_number": "2",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Tor.com · Hardcover · 2020",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -5146,10 +5643,12 @@
   "series_number": "3",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Tordotcom · Hardcover · 2022",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -5174,10 +5673,12 @@
   "series_number": null,
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Subterranean Press · ebook · 2020",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -5202,10 +5703,12 @@
   "series_number": null,
   "waterstones": "Popular Science",
   "foyles": "Popular Science",
+  "blackwells": "Popular Science",
   "edition": "Dey Street Books · Hardcover · 2014",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -5230,6 +5733,7 @@
   "series_number": "1-3",
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Knopf · Hardcover · 2011",
   "contributors": "Jay Rubin, Philip Gabriel",
   "waterstones_also": [
@@ -5237,6 +5741,9 @@
   ],
   "foyles_also": [
    "translated fiction table (bigger shops)"
+  ],
+  "blackwells_also": [
+   "Fiction in translation"
   ],
   "review": null
  },
@@ -5262,6 +5769,7 @@
   "series_number": null,
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Liveright · Hardcover · 2020",
   "contributors": "Jamie Chang",
   "waterstones_also": [
@@ -5269,6 +5777,9 @@
   ],
   "foyles_also": [
    "translated fiction table (bigger shops)"
+  ],
+  "blackwells_also": [
+   "Fiction in translation"
   ],
   "review": null
  },
@@ -5294,12 +5805,16 @@
   "series_number": null,
   "waterstones": "Nature Writing",
   "foyles": "Popular Science",
+  "blackwells": "Nature Writing",
   "edition": "Milkweed Editions · Hardcover · 2020",
   "contributors": "Fumi Nakamura",
   "waterstones_also": [
    "Popular Science"
   ],
   "foyles_also": [],
+  "blackwells_also": [
+   "Popular Science"
+  ],
   "review": null
  },
  {
@@ -5324,12 +5839,16 @@
   "series_number": null,
   "waterstones": "Health & Wellbeing",
   "foyles": "Health",
+  "blackwells": "Health",
   "edition": "Kindle Edition · 2020",
   "contributors": null,
   "waterstones_also": [
    "order in at the till"
   ],
   "foyles_also": [
+   "order in at the till"
+  ],
+  "blackwells_also": [
    "order in at the till"
   ],
   "review": null
@@ -5356,10 +5875,12 @@
   "series_number": null,
   "waterstones": "Teenage & Young Adult",
   "foyles": "Teen & YA",
+  "blackwells": "Young Adult",
   "edition": "Feiwel & Friends · Hardcover · 2022",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -5384,12 +5905,16 @@
   "series_number": "3",
   "waterstones": "Teenage & Young Adult",
   "foyles": "Teen & YA",
+  "blackwells": "Young Adult",
   "edition": "Alfred A. Knopf · Hardcover · 2008",
   "contributors": null,
   "waterstones_also": [
    "Science Fiction & Fantasy"
   ],
   "foyles_also": [
+   "Science Fiction & Fantasy"
+  ],
+  "blackwells_also": [
    "Science Fiction & Fantasy"
   ],
   "review": null
@@ -5416,12 +5941,16 @@
   "series_number": "2",
   "waterstones": "Teenage & Young Adult",
   "foyles": "Teen & YA",
+  "blackwells": "Young Adult",
   "edition": "Knopf Books for Young Readers · Paperback · 2007",
   "contributors": null,
   "waterstones_also": [
    "Science Fiction & Fantasy"
   ],
   "foyles_also": [
+   "Science Fiction & Fantasy"
+  ],
+  "blackwells_also": [
    "Science Fiction & Fantasy"
   ],
   "review": null
@@ -5448,12 +5977,16 @@
   "series_number": "1",
   "waterstones": "Teenage & Young Adult",
   "foyles": "Teen & YA",
+  "blackwells": "Young Adult",
   "edition": "Alfred A. Knopf · Paperback · 2005",
   "contributors": null,
   "waterstones_also": [
    "Science Fiction & Fantasy"
   ],
   "foyles_also": [
+   "Science Fiction & Fantasy"
+  ],
+  "blackwells_also": [
    "Science Fiction & Fantasy"
   ],
   "review": null
@@ -5480,12 +6013,16 @@
   "series_number": "4",
   "waterstones": "Teenage & Young Adult",
   "foyles": "Teen & YA",
+  "blackwells": "Young Adult",
   "edition": "Alfred A. Knopf · Hardcover · 2011",
   "contributors": null,
   "waterstones_also": [
    "Science Fiction & Fantasy"
   ],
   "foyles_also": [
+   "Science Fiction & Fantasy"
+  ],
+  "blackwells_also": [
    "Science Fiction & Fantasy"
   ],
   "review": null
@@ -5512,12 +6049,16 @@
   "series_number": "5",
   "waterstones": "Teenage & Young Adult",
   "foyles": "Teen & YA",
+  "blackwells": "Young Adult",
   "edition": "Penguin Teen Canada · Kindle Edition · 2023",
   "contributors": null,
   "waterstones_also": [
    "Science Fiction & Fantasy"
   ],
   "foyles_also": [
+   "Science Fiction & Fantasy"
+  ],
+  "blackwells_also": [
    "Science Fiction & Fantasy"
   ],
   "review": null
@@ -5544,10 +6085,12 @@
   "series_number": "1",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Tor Books · Hardcover · 2020",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -5572,12 +6115,16 @@
   "series_number": "1",
   "waterstones": "Teenage & Young Adult",
   "foyles": "Teen & YA",
+  "blackwells": "Young Adult",
   "edition": "Razorbill · Hardcover · 2018",
   "contributors": null,
   "waterstones_also": [
    "Science Fiction & Fantasy"
   ],
   "foyles_also": [
+   "Science Fiction & Fantasy"
+  ],
+  "blackwells_also": [
    "Science Fiction & Fantasy"
   ],
   "review": null
@@ -5604,6 +6151,7 @@
   "series_number": "1",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Tor Books · Kindle Edition · 2021",
   "contributors": null,
   "waterstones_also": [
@@ -5611,6 +6159,9 @@
   ],
   "foyles_also": [
    "Fiction A–Z"
+  ],
+  "blackwells_also": [
+   "Fiction"
   ],
   "review": null
  },
@@ -5636,6 +6187,7 @@
   "series_number": null,
   "waterstones": "Horror",
   "foyles": "Horror",
+  "blackwells": "Horror",
   "edition": "Orion · Hardcover · 2010",
   "contributors": null,
   "waterstones_also": [
@@ -5645,6 +6197,10 @@
   "foyles_also": [
    "Science Fiction & Fantasy",
    "Fiction A–Z"
+  ],
+  "blackwells_also": [
+   "Science Fiction & Fantasy",
+   "Fiction"
   ],
   "review": null
  },
@@ -5670,10 +6226,12 @@
   "series_number": "6",
   "waterstones": "Children's 9–12",
   "foyles": "Children's 9–12",
+  "blackwells": "Children's",
   "edition": "Orion Childrens · Hardcover · 2009",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -5698,10 +6256,12 @@
   "series_number": "5",
   "waterstones": "Children's 9–12",
   "foyles": "Children's 9–12",
+  "blackwells": "Children's",
   "edition": "Orion Children's Books · Hardcover · 2008",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -5726,10 +6286,12 @@
   "series_number": "4",
   "waterstones": "Children's 9–12",
   "foyles": "Children's 9–12",
+  "blackwells": "Children's",
   "edition": "Orion Childrens Books · Hardcover · 2007",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -5754,6 +6316,7 @@
   "series_number": null,
   "waterstones": "Horror",
   "foyles": "Horror",
+  "blackwells": "Horror",
   "edition": "Sphere · Kindle Edition · 2025",
   "contributors": null,
   "waterstones_also": [
@@ -5763,6 +6326,10 @@
   "foyles_also": [
    "Science Fiction & Fantasy",
    "Fiction A–Z"
+  ],
+  "blackwells_also": [
+   "Science Fiction & Fantasy",
+   "Fiction"
   ],
   "review": null
  },
@@ -5788,10 +6355,12 @@
   "series_number": "8",
   "waterstones": "Children's 9–12",
   "foyles": "Children's 9–12",
+  "blackwells": "Children's",
   "edition": "Zephyr · Kindle Edition · 2021",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -5816,10 +6385,12 @@
   "series_number": "3",
   "waterstones": "Children's 9–12",
   "foyles": "Children's 9–12",
+  "blackwells": "Children's",
   "edition": "Orion Childrens · Paperback · 2007",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -5844,10 +6415,12 @@
   "series_number": "2",
   "waterstones": "Children's 9–12",
   "foyles": "Children's 9–12",
+  "blackwells": "Children's",
   "edition": "HarperCollins · Paperback · 2007",
   "contributors": "Geoff Taylor",
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -5872,6 +6445,7 @@
   "series_number": null,
   "waterstones": "Horror",
   "foyles": "Horror",
+  "blackwells": "Horror",
   "edition": "Orion Books · Hardcover · 2016",
   "contributors": null,
   "waterstones_also": [
@@ -5881,6 +6455,10 @@
   "foyles_also": [
    "Science Fiction & Fantasy",
    "Fiction A–Z"
+  ],
+  "blackwells_also": [
+   "Science Fiction & Fantasy",
+   "Fiction"
   ],
   "review": null
  },
@@ -5906,10 +6484,12 @@
   "series_number": "7",
   "waterstones": "Children's 9–12",
   "foyles": "Children's 9–12",
+  "blackwells": "Children's",
   "edition": "Zephyr · Kindle Edition · 2020",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -5934,10 +6514,12 @@
   "series_number": "1",
   "waterstones": "Children's 9–12",
   "foyles": "Children's 9–12",
+  "blackwells": "Children's",
   "edition": "HarperTrophy · Paperback · 2006",
   "contributors": "Geoff Taylor",
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -5962,10 +6544,12 @@
   "series_number": "9",
   "waterstones": "Children's 9–12",
   "foyles": "Children's 9–12",
+  "blackwells": "Children's",
   "edition": "Zephyr · Kindle Edition · 2022",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -5990,12 +6574,16 @@
   "series_number": null,
   "waterstones": "Philosophy",
   "foyles": "Philosophy",
+  "blackwells": "Philosophy · Norrington Room",
   "edition": "Bolchazy-Carducci Publishers · Paperback · 1997",
   "contributors": "James J. Helm",
   "waterstones_also": [
    "Classics"
   ],
   "foyles_also": [
+   "Classics"
+  ],
+  "blackwells_also": [
    "Classics"
   ],
   "review": null
@@ -6022,12 +6610,16 @@
   "series_number": null,
   "waterstones": "Classics",
   "foyles": "Classics",
+  "blackwells": "Classics",
   "edition": "BookSurge Classics · Paperback · 2004",
   "contributors": null,
   "waterstones_also": [
    "Horror"
   ],
   "foyles_also": [
+   "Horror"
+  ],
+  "blackwells_also": [
    "Horror"
   ],
   "review": null
@@ -6054,12 +6646,16 @@
   "series_number": null,
   "waterstones": "Classics",
   "foyles": "Classics",
+  "blackwells": "Classics",
   "edition": "Creative Education · Library Binding · 1980",
   "contributors": "Byron Glaser",
   "waterstones_also": [
    "Horror"
   ],
   "foyles_also": [
+   "Horror"
+  ],
+  "blackwells_also": [
    "Horror"
   ],
   "review": null
@@ -6086,10 +6682,12 @@
   "series_number": null,
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Tordotcom · Hardcover · 2022",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -6114,10 +6712,12 @@
   "series_number": null,
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Overlook Press · Paperback · 2002",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -6142,10 +6742,12 @@
   "series_number": "4",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Harpertorch · Mass Market Paperback · 2001",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -6170,6 +6772,7 @@
   "series_number": null,
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Arcade Publishing · Hardcover · 2018",
   "contributors": "Sora Kim-Russell",
   "waterstones_also": [
@@ -6177,6 +6780,9 @@
   ],
   "foyles_also": [
    "translated fiction table (bigger shops)"
+  ],
+  "blackwells_also": [
+   "Fiction in translation"
   ],
   "review": null
  },
@@ -6202,6 +6808,7 @@
   "series_number": null,
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Arcade · Hardcover · 2017",
   "contributors": "Sora Kim-Russell",
   "waterstones_also": [
@@ -6210,6 +6817,10 @@
   ],
   "foyles_also": [
    "translated fiction table (bigger shops)",
+   "Horror"
+  ],
+  "blackwells_also": [
+   "Fiction in translation",
    "Horror"
   ],
   "review": null
@@ -6236,10 +6847,12 @@
   "series_number": null,
   "waterstones": "Classics",
   "foyles": "Classics",
+  "blackwells": "Classics",
   "edition": "Oxford University Press · Paperback · 2004",
   "contributors": "James Watt, James Trainer",
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -6264,6 +6877,7 @@
   "series_number": null,
   "waterstones": "Classics",
   "foyles": "Classics",
+  "blackwells": "Classics",
   "edition": "Dover Publications · Paperback · 2002",
   "contributors": "Franz Xaver Kappus, Reginald Snell",
   "waterstones_also": [
@@ -6271,6 +6885,9 @@
   ],
   "foyles_also": [
    "Poetry"
+  ],
+  "blackwells_also": [
+   "Poetry · Norrington Room"
   ],
   "review": null
  },
@@ -6296,10 +6913,12 @@
   "series_number": "4",
   "waterstones": "Children's 9–12",
   "foyles": "Children's 9–12",
+  "blackwells": "Children's",
   "edition": "Hyperion Books for Children · Hardcover · 2008",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -6324,10 +6943,12 @@
   "series_number": "5",
   "waterstones": "Children's 9–12",
   "foyles": "Children's 9–12",
+  "blackwells": "Children's",
   "edition": "Disney-Hyperion Books · Hardcover · 2014",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -6352,10 +6973,12 @@
   "series_number": "1",
   "waterstones": "Children's 9–12",
   "foyles": "Children's 9–12",
+  "blackwells": "Children's",
   "edition": "Disney Hyperion · Hardcover · 2023",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -6380,10 +7003,12 @@
   "series_number": "4",
   "waterstones": "Children's 9–12",
   "foyles": "Children's 9–12",
+  "blackwells": "Children's",
   "edition": "Disney-Hyperion Books · Hardcover · 2013",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -6408,10 +7033,12 @@
   "series_number": "5",
   "waterstones": "Children's 9–12",
   "foyles": "Children's 9–12",
+  "blackwells": "Children's",
   "edition": "Disney-Hyperion Books · Hardcover · 2009",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -6436,10 +7063,12 @@
   "series_number": "1",
   "waterstones": "Children's 9–12",
   "foyles": "Children's 9–12",
+  "blackwells": "Children's",
   "edition": "Disney Hyperion Books · Paperback · 2006",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -6464,10 +7093,12 @@
   "series_number": "1",
   "waterstones": "Children's 9–12",
   "foyles": "Children's 9–12",
+  "blackwells": "Children's",
   "edition": "Disney-Hyperion Books · Hardcover · 2010",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -6492,10 +7123,12 @@
   "series_number": "3",
   "waterstones": "Children's 9–12",
   "foyles": "Children's 9–12",
+  "blackwells": "Children's",
   "edition": "Disney-Hyperion Books · Hardcover · 2012",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -6520,10 +7153,12 @@
   "series_number": "2",
   "waterstones": "Children's 9–12",
   "foyles": "Children's 9–12",
+  "blackwells": "Children's",
   "edition": "Hyperion Books · Hardcover · 2006",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -6548,10 +7183,12 @@
   "series_number": "2",
   "waterstones": "Children's 9–12",
   "foyles": "Children's 9–12",
+  "blackwells": "Children's",
   "edition": "Disney-Hyperion Books · Hardcover · 2011",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -6576,6 +7213,7 @@
   "series_number": "1",
   "waterstones": "Teenage & Young Adult",
   "foyles": "Teen & YA",
+  "blackwells": "Young Adult",
   "edition": "Disney Hyperion · Kindle Edition · 2023",
   "contributors": "Mark Oshiro",
   "waterstones_also": [
@@ -6583,6 +7221,9 @@
   ],
   "foyles_also": [
    "Children's 9–12"
+  ],
+  "blackwells_also": [
+   "Children's"
   ],
   "review": null
  },
@@ -6608,10 +7249,12 @@
   "series_number": "3",
   "waterstones": "Children's 9–12",
   "foyles": "Children's 9–12",
+  "blackwells": "Children's",
   "edition": "Puffin Books · Kindle Edition · 2007",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -6636,12 +7279,16 @@
   "series_number": null,
   "waterstones": "Teenage & Young Adult",
   "foyles": "Teen & YA",
+  "blackwells": "Young Adult",
   "edition": "Margaret K. McElderry Books · Hardcover · 2021",
   "contributors": null,
   "waterstones_also": [
    "Science Fiction & Fantasy"
   ],
   "foyles_also": [
+   "Science Fiction & Fantasy"
+  ],
+  "blackwells_also": [
    "Science Fiction & Fantasy"
   ],
   "review": null
@@ -6668,10 +7315,12 @@
   "series_number": "1",
   "waterstones": "Teenage & Young Adult",
   "foyles": "Teen & YA",
+  "blackwells": "Young Adult",
   "edition": "Katherine Tegen Books · Paperback · 2012",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -6696,10 +7345,12 @@
   "series_number": "1",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Penguin Group DAW · Hardcover · 2007",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -6724,10 +7375,12 @@
   "series_number": null,
   "waterstones": "Popular Science",
   "foyles": "Popular Science",
+  "blackwells": "Popular Science",
   "edition": "Riverhead Books · Hardcover · 2023",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -6752,10 +7405,12 @@
   "series_number": "1",
   "waterstones": "Children's 9–12",
   "foyles": "Children's 9–12",
+  "blackwells": "Children's",
   "edition": "Knopf Books for Young Readers · Hardcover · 2024",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -6780,10 +7435,12 @@
   "series_number": null,
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Ecco · Kindle Edition · 2015",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -6808,10 +7465,12 @@
   "series_number": null,
   "waterstones": "Classics",
   "foyles": "Classics",
+  "blackwells": "Classics",
   "edition": "Penguin Books · Paperback · 2003",
   "contributors": "Roberto González Echevarría, John Rutherford",
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -6836,12 +7495,14 @@
   "series_number": null,
   "waterstones": "Romantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Del Rey · Paperback · 2024",
   "contributors": null,
   "waterstones_also": [
    "Science Fiction & Fantasy"
   ],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -6868,6 +7529,7 @@
   "series_number": null,
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Flatiron Books · Hardcover · 2023",
   "contributors": null,
   "waterstones_also": [
@@ -6875,6 +7537,10 @@
    "Science Fiction & Fantasy"
   ],
   "foyles_also": [
+   "Myth & Folklore",
+   "Science Fiction & Fantasy"
+  ],
+  "blackwells_also": [
    "Myth & Folklore",
    "Science Fiction & Fantasy"
   ],
@@ -6904,12 +7570,16 @@
   "series_number": null,
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Flatiron Books · Hardcover · 2022",
   "contributors": null,
   "waterstones_also": [
    "Myths & Legends"
   ],
   "foyles_also": [
+   "Myth & Folklore"
+  ],
+  "blackwells_also": [
    "Myth & Folklore"
   ],
   "review": null
@@ -6936,10 +7606,12 @@
   "series_number": "2",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Wizards of the Coast · Mass Market Paperback · 2025",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -6964,10 +7636,12 @@
   "series_number": "1",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Wizards of the Coast · Mass Market Paperback · 2025",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -6992,10 +7666,12 @@
   "series_number": "3",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Wizards of the Coast · Mass Market Paperback · 1991",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -7020,10 +7696,12 @@
   "series_number": "1",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Dragonsteel Entertainment · Kindle Edition · 2023",
   "contributors": "Howard Lyon",
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -7048,10 +7726,12 @@
   "series_number": null,
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Self-published · ebook · 2009",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -7076,10 +7756,12 @@
   "series_number": "1",
   "waterstones": "Teenage & Young Adult",
   "foyles": "Teen & YA",
+  "blackwells": "Young Adult",
   "edition": "Wednesday Books · Hardcover · 2022",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -7104,10 +7786,12 @@
   "series_number": null,
   "waterstones": "Classics",
   "foyles": "Classics",
+  "blackwells": "Classics",
   "edition": "The Folio Society · Hardcover · 1985",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -7132,6 +7816,7 @@
   "series_number": null,
   "waterstones": "Self-Help",
   "foyles": "Self-Help",
+  "blackwells": "Self-Help",
   "edition": "Penerbit Haru · Paperback · 2019",
   "contributors": "Hyacinta Louisa",
   "waterstones_also": [
@@ -7143,6 +7828,11 @@
    "Mind, Body & Spirit",
    "Health",
    "translated fiction table (bigger shops)"
+  ],
+  "blackwells_also": [
+   "Mind, Body & Spirit",
+   "Health",
+   "Fiction in translation"
   ],
   "review": null
  },
@@ -7168,12 +7858,14 @@
   "series_number": null,
   "waterstones": "Romantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Del Rey · Hardcover · 2025",
   "contributors": null,
   "waterstones_also": [
    "Science Fiction & Fantasy"
   ],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -7198,12 +7890,14 @@
   "series_number": null,
   "waterstones": "Not usually stocked",
   "foyles": "Not usually stocked",
+  "blackwells": "Not usually stocked",
   "edition": "허밍버드 · Paperback · 2016",
   "contributors": "전승환",
   "waterstones_also": [],
   "foyles_also": [
    "Languages department (Charing Cross Road)"
   ],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -7213,7 +7907,7 @@
   "category": "Plays",
   "extra_shelves": [],
   "series": null,
-  "status": "to-read",
+  "status": "reading",
   "rating": null,
   "year": 1601,
   "pages": 122,
@@ -7228,12 +7922,16 @@
   "series_number": null,
   "waterstones": "Drama",
   "foyles": "Drama",
+  "blackwells": "Drama · Norrington Room",
   "edition": "Dover Publications · Paperback · 1992",
   "contributors": null,
   "waterstones_also": [
    "Classics"
   ],
   "foyles_also": [
+   "Classics"
+  ],
+  "blackwells_also": [
    "Classics"
   ],
   "review": null
@@ -7260,10 +7958,12 @@
   "series_number": "0.1",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Bloomsbury Publishing · Hardcover · 2023",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -7288,10 +7988,12 @@
   "series_number": "1",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Bloomsbury Publishing · ebook · 2019",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -7316,6 +8018,7 @@
   "series_number": null,
   "waterstones": "Nature Writing",
   "foyles": "Popular Science",
+  "blackwells": "Nature Writing",
   "edition": "Random House · Hardcover · 2020",
   "contributors": null,
   "waterstones_also": [
@@ -7323,6 +8026,9 @@
   ],
   "foyles_also": [
    "Nature Writing"
+  ],
+  "blackwells_also": [
+   "Popular Science"
   ],
   "review": null
  },
@@ -7348,10 +8054,12 @@
   "series_number": null,
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "St. Martins Press-3PL · Paperback · 2002",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -7376,6 +8084,7 @@
   "series_number": null,
   "waterstones": "Crime & Thrillers",
   "foyles": "Crime & Thrillers",
+  "blackwells": "Crime & Thrillers",
   "edition": "Stone Bridge Pr · Hardcover · 2005",
   "contributors": "Shika MacKenzie, Ross MacKenzie",
   "waterstones_also": [
@@ -7385,6 +8094,10 @@
   "foyles_also": [
    "translated fiction table (bigger shops)",
    "Fiction A–Z"
+  ],
+  "blackwells_also": [
+   "Fiction in translation",
+   "Fiction"
   ],
   "review": null
  },
@@ -7410,6 +8123,7 @@
   "series_number": null,
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Pegasus Books · Hardcover · 2018",
   "contributors": "Anton Hur",
   "waterstones_also": [
@@ -7417,6 +8131,9 @@
   ],
   "foyles_also": [
    "translated fiction table (bigger shops)"
+  ],
+  "blackwells_also": [
+   "Fiction in translation"
   ],
   "review": null
  },
@@ -7442,10 +8159,12 @@
   "series_number": null,
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Polygon · Paperback · 2022",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -7470,6 +8189,7 @@
   "series_number": null,
   "waterstones": "Myths & Legends",
   "foyles": "Myth & Folklore",
+  "blackwells": "Myth & Folklore",
   "edition": "The History Press · Hardcover · 2019",
   "contributors": null,
   "waterstones_also": [
@@ -7477,6 +8197,9 @@
   ],
   "foyles_also": [
    "Local / Scottish interest"
+  ],
+  "blackwells_also": [
+   "Local interest"
   ],
   "review": null
  },
@@ -7502,6 +8225,7 @@
   "series_number": null,
   "waterstones": "Classics",
   "foyles": "Classics",
+  "blackwells": "Classics",
   "edition": "Penguin Books Ltd · Paperback · 1977",
   "contributors": null,
   "waterstones_also": [
@@ -7509,6 +8233,9 @@
   ],
   "foyles_also": [
    "Fiction A–Z"
+  ],
+  "blackwells_also": [
+   "Fiction"
   ],
   "review": null
  },
@@ -7519,7 +8246,7 @@
   "category": "Classic Gothic",
   "extra_shelves": [],
   "series": null,
-  "status": "to-read",
+  "status": "reading",
   "rating": null,
   "year": 1897,
   "pages": 488,
@@ -7534,12 +8261,16 @@
   "series_number": null,
   "waterstones": "Classics",
   "foyles": "Classics",
+  "blackwells": "Classics",
   "edition": "Norton · Paperback · 1986",
   "contributors": "Rubén Toledo, Nina Auerbach, David J. Skal",
   "waterstones_also": [
    "Horror"
   ],
   "foyles_also": [
+   "Horror"
+  ],
+  "blackwells_also": [
    "Horror"
   ],
   "review": null
@@ -7566,10 +8297,12 @@
   "series_number": null,
   "waterstones": "Drama",
   "foyles": "Drama",
+  "blackwells": "Drama · Norrington Room",
   "edition": "Faber & Faber · Paperback · 1994",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -7594,10 +8327,12 @@
   "series_number": null,
   "waterstones": "Drama",
   "foyles": "Drama",
+  "blackwells": "Drama · Norrington Room",
   "edition": "Audio Forum · Audio Cassette · 2004",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -7622,6 +8357,7 @@
   "series_number": null,
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Oneworld Publications · Paperback · 2017",
   "contributors": "Alison Watts",
   "waterstones_also": [
@@ -7629,6 +8365,9 @@
   ],
   "foyles_also": [
    "translated fiction table (bigger shops)"
+  ],
+  "blackwells_also": [
+   "Fiction in translation"
   ],
   "review": null
  },
@@ -7654,12 +8393,16 @@
   "series_number": null,
   "waterstones": "Mind, Body & Spirit",
   "foyles": "Mind, Body & Spirit",
+  "blackwells": "Mind, Body & Spirit",
   "edition": "Penguin Life · Hardcover · 2017",
   "contributors": "Chi-Young Kim, Youngcheol Lee",
   "waterstones_also": [
    "Self-Help"
   ],
   "foyles_also": [
+   "Self-Help"
+  ],
+  "blackwells_also": [
    "Self-Help"
   ],
   "review": null
@@ -7686,6 +8429,7 @@
   "series_number": null,
   "waterstones": "Philosophy",
   "foyles": "Philosophy",
+  "blackwells": "Philosophy · Norrington Room",
   "edition": "Leete's Island Books · Paperback · 1977",
   "contributors": "Edward G. Seidensticker, Thomas J. Harper, Charles Moore",
   "waterstones_also": [
@@ -7693,6 +8437,9 @@
   ],
   "foyles_also": [
    "Art & Design"
+  ],
+  "blackwells_also": [
+   "Art & Design · 2nd floor"
   ],
   "review": null
  },
@@ -7718,6 +8465,7 @@
   "series_number": "1",
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "New Directions · Paperback · 2022",
   "contributors": "Margaret Mitsutani",
   "waterstones_also": [
@@ -7725,6 +8473,9 @@
   ],
   "foyles_also": [
    "translated fiction table (bigger shops)"
+  ],
+  "blackwells_also": [
+   "Fiction in translation"
   ],
   "review": "“Scattered All Over the Earth” had an intriguing concept, but it fell short in execution. The transphobia throughout the narrative was off-putting and unnecessary, and it distracted from the story. \n\nThe world-building, which could have been a highlight, was shallow. The premise of countries disappearing was fascinating, but it was barely explored. Important details were glossed over, and interesting ideas were mentioned only to be abandoned without explanation.\n\nThe characters lacked depth, making it difficult to connect with them. The narrative was also bogged down by lengthy, seemingly irrelevant explanations that felt like they were trying to create meaning where there wasn’t any. These digressions were repeated throughout the book, but they never added real value or substance to the plot.\n\nOverall, the book had potential but failed to develop its world and characters in a meaningful way. It aimed for depth but lacked the substance to support it."
  },
@@ -7750,10 +8501,12 @@
   "series_number": null,
   "waterstones": "Popular Science",
   "foyles": "Popular Science",
+  "blackwells": "Popular Science",
   "edition": "W. W. Norton & Company · Paperback · 1995",
   "contributors": "Stephen W. Hawking",
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -7778,10 +8531,12 @@
   "series_number": null,
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Houghton Mifflin Harcourt · Hardcover · 2008",
   "contributors": "Alan Lee, Tom Shippey",
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -7806,10 +8561,12 @@
   "series_number": null,
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "HarperCollins · Hardcover · 2007",
   "contributors": "Christopher Tolkien, Alan Lee",
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -7834,10 +8591,12 @@
   "series_number": null,
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "HarperCollins · Hardcover · 2022",
   "contributors": "Christopher Tolkien, Brian Sibley, Alan Lee",
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -7862,10 +8621,12 @@
   "series_number": null,
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Houghton Mifflin · Paperback · 2002",
   "contributors": "Douglas A. Anderson, Michael Hague, Jemima Catlin",
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -7890,10 +8651,12 @@
   "series_number": null,
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Houghton Mifflin Company · Hardcover · 2004",
   "contributors": "Christopher Tolkien, Ted Nasmith",
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -7918,6 +8681,7 @@
   "series_number": null,
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Doubleday · Hardcover · 2021",
   "contributors": null,
   "waterstones_also": [
@@ -7927,6 +8691,10 @@
   "foyles_also": [
    "translated fiction table (bigger shops)",
    "Teen & YA"
+  ],
+  "blackwells_also": [
+   "Fiction in translation",
+   "Young Adult"
   ],
   "review": null
  },
@@ -7952,12 +8720,14 @@
   "series_number": "1",
   "waterstones": "Romantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Forever · Paperback · 2023",
   "contributors": null,
   "waterstones_also": [
    "Science Fiction & Fantasy"
   ],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -7982,10 +8752,12 @@
   "series_number": null,
   "waterstones": "Popular Science",
   "foyles": "Popular Science",
+  "blackwells": "Popular Science",
   "edition": "W. W. Norton & Company · Hardcover · 2017",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -8010,12 +8782,16 @@
   "series_number": null,
   "waterstones": "Philosophy",
   "foyles": "Philosophy",
+  "blackwells": "Philosophy · Norrington Room",
   "edition": "Harper Press · Paperback · 2005",
   "contributors": "Thomas Cleary",
   "waterstones_also": [
    "Classics"
   ],
   "foyles_also": [
+   "Classics"
+  ],
+  "blackwells_also": [
    "Classics"
   ],
   "review": null
@@ -8042,6 +8818,7 @@
   "series_number": "1",
   "waterstones": "Crime & Thrillers",
   "foyles": "Crime & Thrillers",
+  "blackwells": "Crime & Thrillers",
   "edition": "HarperVia · Paperback · 2025",
   "contributors": "Jim Rion",
   "waterstones_also": [
@@ -8051,6 +8828,10 @@
   "foyles_also": [
    "Fiction A–Z",
    "translated fiction table (bigger shops)"
+  ],
+  "blackwells_also": [
+   "Fiction",
+   "Fiction in translation"
   ],
   "review": null
  },
@@ -8076,6 +8857,7 @@
   "series_number": null,
   "waterstones": "Crime & Thrillers",
   "foyles": "Crime & Thrillers",
+  "blackwells": "Crime & Thrillers",
   "edition": "HarperVia · Paperback · 2025",
   "contributors": "Jim Rion",
   "waterstones_also": [
@@ -8085,6 +8867,10 @@
   "foyles_also": [
    "Fiction A–Z",
    "translated fiction table (bigger shops)"
+  ],
+  "blackwells_also": [
+   "Fiction",
+   "Fiction in translation"
   ],
   "review": null
  },
@@ -8110,6 +8896,7 @@
   "series_number": null,
   "waterstones": "Crime & Thrillers",
   "foyles": "Crime & Thrillers",
+  "blackwells": "Crime & Thrillers",
   "edition": "Text Publishing · Paperback · 2018",
   "contributors": "Sora Kim-Russell",
   "waterstones_also": [
@@ -8119,6 +8906,10 @@
   "foyles_also": [
    "translated fiction table (bigger shops)",
    "Fiction A–Z"
+  ],
+  "blackwells_also": [
+   "Fiction in translation",
+   "Fiction"
   ],
   "review": null
  },
@@ -8144,6 +8935,7 @@
   "series_number": null,
   "waterstones": "Teenage & Young Adult",
   "foyles": "Teen & YA",
+  "blackwells": "Young Adult",
   "edition": "HarperTeen · Hardcover · 2023",
   "contributors": null,
   "waterstones_also": [
@@ -8153,6 +8945,9 @@
   "foyles_also": [
    "Science Fiction & Fantasy",
    "Romantasy"
+  ],
+  "blackwells_also": [
+   "Science Fiction & Fantasy"
   ],
   "review": null
  },
@@ -8178,10 +8973,12 @@
   "series_number": "1",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Tordotcom · Hardcover · 2023",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -8206,10 +9003,12 @@
   "series_number": "1",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Pocket Books · Paperback · 1977",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -8234,6 +9033,7 @@
   "series_number": null,
   "waterstones": "Horror",
   "foyles": "Horror",
+  "blackwells": "Horror",
   "edition": "Poisoned Pen Press · Paperback · 2024",
   "contributors": null,
   "waterstones_also": [
@@ -8243,6 +9043,10 @@
   "foyles_also": [
    "Science Fiction & Fantasy",
    "Fiction A–Z"
+  ],
+  "blackwells_also": [
+   "Science Fiction & Fantasy",
+   "Fiction"
   ],
   "review": null
  },
@@ -8268,10 +9072,12 @@
   "series_number": "1",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Tor.com · ebook · 2020",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -8296,10 +9102,12 @@
   "series_number": null,
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "L.S. Walker · Paperback · 2025",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -8309,12 +9117,12 @@
   "category": "Classic Gothic",
   "extra_shelves": [],
   "series": null,
-  "status": "reading",
-  "rating": null,
+  "status": "read",
+  "rating": 3.5,
   "year": 1764,
   "pages": 125,
   "isbn13": "9780192834409",
-  "date_read": null,
+  "date_read": "2026/10/17",
   "date_added": "2025/09/08",
   "goodreads_id": 12923,
   "possible_duplicate": false,
@@ -8324,12 +9132,16 @@
   "series_number": null,
   "waterstones": "Classics",
   "foyles": "Classics",
+  "blackwells": "Classics",
   "edition": "Oxford University Press · Paperback · 1998",
   "contributors": null,
   "waterstones_also": [
    "Horror"
   ],
   "foyles_also": [
+   "Horror"
+  ],
+  "blackwells_also": [
    "Horror"
   ],
   "review": null
@@ -8356,10 +9168,12 @@
   "series_number": null,
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Amazon Digital Services · Kindle Edition · 2019",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -8384,10 +9198,12 @@
   "series_number": null,
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Ballantine Books · Hardcover · 2021",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -8412,10 +9228,12 @@
   "series_number": "1",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Wizards of the Coast · Mass Market Paperback · 2000",
   "contributors": "Tracy Hickman",
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -8440,12 +9258,16 @@
   "series_number": null,
   "waterstones": "Classics",
   "foyles": "Classics",
+  "blackwells": "Classics",
   "edition": "Random House Publishing Group · Paperback · 2002",
   "contributors": "Arthur C. Clarke",
   "waterstones_also": [
    "Science Fiction & Fantasy"
   ],
   "foyles_also": [
+   "Science Fiction & Fantasy"
+  ],
+  "blackwells_also": [
    "Science Fiction & Fantasy"
   ],
   "review": null
@@ -8472,6 +9294,7 @@
   "series_number": null,
   "waterstones": "Myths & Legends",
   "foyles": "Myth & Folklore",
+  "blackwells": "Myth & Folklore",
   "edition": "Random House Books · Hardcover · 2009",
   "contributors": "Sophia Kingshill",
   "waterstones_also": [
@@ -8479,6 +9302,9 @@
   ],
   "foyles_also": [
    "Local / Scottish interest"
+  ],
+  "blackwells_also": [
+   "Local interest"
   ],
   "review": null
  },
@@ -8504,10 +9330,12 @@
   "series_number": "1",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Hidden Gnome Publishing · Kindle Edition · 2016",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -8532,10 +9360,12 @@
   "series_number": null,
   "waterstones": "Classics",
   "foyles": "Classics",
+  "blackwells": "Classics",
   "edition": "Penguin Classics · Paperback · 2003",
   "contributors": "Robert Mighall",
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -8560,10 +9390,12 @@
   "series_number": null,
   "waterstones": "History",
   "foyles": "History",
+  "blackwells": "History · Norrington Room",
   "edition": "Bloomsbury Publishing PLC · Hardcover · 2010",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -8588,10 +9420,12 @@
   "series_number": "1-2",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Orb Books · Paperback · 1994",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -8616,10 +9450,12 @@
   "series_number": null,
   "waterstones": "History",
   "foyles": "History",
+  "blackwells": "History · Norrington Room",
   "edition": "St. Martin's Press · Hardcover · 2020",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -8644,10 +9480,12 @@
   "series_number": null,
   "waterstones": "History",
   "foyles": "History",
+  "blackwells": "History · Norrington Room",
   "edition": "Houghton Mifflin Harcourt · Hardcover · 2007",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -8672,10 +9510,12 @@
   "series_number": "1",
   "waterstones": "Science Fiction & Fantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "DeeDub Publishing · Kindle Edition · 2023",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -8700,6 +9540,7 @@
   "series_number": "1",
   "waterstones": "Mind, Body & Spirit",
   "foyles": "Mind, Body & Spirit",
+  "blackwells": "Mind, Body & Spirit",
   "edition": "Wisdom Publications · Kindle Edition · 2017",
   "contributors": "Thubten Chodron",
   "waterstones_also": [
@@ -8707,6 +9548,9 @@
   ],
   "foyles_also": [
    "Religion"
+  ],
+  "blackwells_also": [
+   "Religion · Norrington Room"
   ],
   "review": null
  },
@@ -8732,6 +9576,7 @@
   "series_number": null,
   "waterstones": "Mind, Body & Spirit",
   "foyles": "Mind, Body & Spirit",
+  "blackwells": "Mind, Body & Spirit",
   "edition": "Riverhead Hardcover · Hardcover · 1998",
   "contributors": "Howard C. Cutler",
   "waterstones_also": [
@@ -8739,6 +9584,9 @@
   ],
   "foyles_also": [
    "Religion"
+  ],
+  "blackwells_also": [
+   "Religion · Norrington Room"
   ],
   "review": null
  },
@@ -8764,6 +9612,7 @@
   "series_number": null,
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Vertical Inc · Paperback · 2003",
   "contributors": "Wayne P. Lammers",
   "waterstones_also": [
@@ -8772,6 +9621,10 @@
   ],
   "foyles_also": [
    "translated fiction table (bigger shops)",
+   "Horror"
+  ],
+  "blackwells_also": [
+   "Fiction in translation",
    "Horror"
   ],
   "review": null
@@ -8798,12 +9651,16 @@
   "series_number": null,
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Del Rey · Hardcover · 2025",
   "contributors": null,
   "waterstones_also": [
    "Science Fiction & Fantasy"
   ],
   "foyles_also": [
+   "Science Fiction & Fantasy"
+  ],
+  "blackwells_also": [
    "Science Fiction & Fantasy"
   ],
   "review": null
@@ -8830,12 +9687,14 @@
   "series_number": "1",
   "waterstones": "Romantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Entangled: Red Tower Books · Hardcover · 2023",
   "contributors": null,
   "waterstones_also": [
    "Science Fiction & Fantasy"
   ],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -8860,12 +9719,14 @@
   "series_number": "2",
   "waterstones": "Romantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Entangled: Red Tower Books · Hardcover · 2023",
   "contributors": null,
   "waterstones_also": [
    "Science Fiction & Fantasy"
   ],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -8890,12 +9751,14 @@
   "series_number": "3",
   "waterstones": "Romantasy",
   "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
   "edition": "Red Tower Books · Hardcover · 2025",
   "contributors": null,
   "waterstones_also": [
    "Science Fiction & Fantasy"
   ],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -8920,6 +9783,7 @@
   "series_number": null,
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Honford Star · Paperback · 2024",
   "contributors": "Yewon Jung",
   "waterstones_also": [
@@ -8928,6 +9792,10 @@
   ],
   "foyles_also": [
    "translated fiction table (bigger shops)",
+   "Horror"
+  ],
+  "blackwells_also": [
+   "Fiction in translation",
    "Horror"
   ],
   "review": null
@@ -8954,12 +9822,16 @@
   "series_number": null,
   "waterstones": "Pets",
   "foyles": "Pets",
+  "blackwells": "Pets",
   "edition": "CattleDog Publishing · Kindle Edition · 2011",
   "contributors": "Lili Chin",
   "waterstones_also": [
    "Home & Garden"
   ],
   "foyles_also": [
+   "Home & Garden"
+  ],
+  "blackwells_also": [
    "Home & Garden"
   ],
   "review": null
@@ -8986,10 +9858,12 @@
   "series_number": null,
   "waterstones": "Graphic Novels & Manga",
   "foyles": "Graphic Novels",
+  "blackwells": "Graphic Novels",
   "edition": "Naver · ebook · 2018",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -9014,6 +9888,7 @@
   "series_number": null,
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Faber & Faber · Paperback · 2001",
   "contributors": "Russell F. Wasden",
   "waterstones_also": [
@@ -9021,6 +9896,9 @@
   ],
   "foyles_also": [
    "translated fiction table (bigger shops)"
+  ],
+  "blackwells_also": [
+   "Fiction in translation"
   ],
   "review": null
  },
@@ -9046,6 +9924,7 @@
   "series_number": null,
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Ecco · Hardcover · 2024",
   "contributors": "Polly Barton",
   "waterstones_also": [
@@ -9054,6 +9933,10 @@
   ],
   "foyles_also": [
    "translated fiction table (bigger shops)",
+   "Crime & Thrillers"
+  ],
+  "blackwells_also": [
+   "Fiction in translation",
    "Crime & Thrillers"
   ],
   "review": null
@@ -9080,10 +9963,12 @@
   "series_number": null,
   "waterstones": "Fiction A–Z",
   "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
   "edition": "Knopf · Paperback · 2022",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -9108,12 +9993,14 @@
   "series_number": null,
   "waterstones": "Not usually stocked",
   "foyles": "Not usually stocked",
+  "blackwells": "Not usually stocked",
   "edition": "FIKA · ebook · 2020",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [
    "Languages department (Charing Cross Road)"
   ],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -9138,12 +10025,14 @@
   "series_number": null,
   "waterstones": "Not usually stocked",
   "foyles": "Not usually stocked",
+  "blackwells": "Not usually stocked",
   "edition": "열림원 · Paperback · 2019",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [
    "Languages department (Charing Cross Road)"
   ],
+  "blackwells_also": [],
   "review": null
  },
  {
@@ -9168,11 +10057,305 @@
   "series_number": null,
   "waterstones": "Not usually stocked",
   "foyles": "Not usually stocked",
+  "blackwells": "Not usually stocked",
   "edition": "피어오름 · Paperback · 2019",
   "contributors": null,
   "waterstones_also": [],
   "foyles_also": [
    "Languages department (Charing Cross Road)"
+  ],
+  "blackwells_also": [],
+  "review": null
+ },
+ {
+  "title": "A Court of Mist and Fury",
+  "author": "Sarah J. Maas",
+  "author_sort": "Maas, Sarah J.",
+  "category": "Romantasy",
+  "extra_shelves": [],
+  "series": "A Court of Thorns and Roses, Book 2",
+  "status": "reading",
+  "rating": null,
+  "year": 2016,
+  "pages": 626,
+  "isbn13": "9781635575583",
+  "date_read": null,
+  "date_added": "2026/10/23",
+  "goodreads_id": 50659468,
+  "possible_duplicate": false,
+  "year_approx": false,
+  "synopsis": "Feyre, changed by her ordeal Under the Mountain, struggles in the Spring Court while the enigmatic Rhysand calls in his bargain and draws her into the Night Court.",
+  "series_name": "A Court of Thorns and Roses",
+  "series_number": "2",
+  "waterstones": "Romantasy",
+  "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
+  "edition": "Bloomsbury Publishing · Paperback · 2020",
+  "contributors": null,
+  "waterstones_also": [
+   "Science Fiction & Fantasy"
+  ],
+  "foyles_also": [],
+  "blackwells_also": [],
+  "review": null
+ },
+ {
+  "title": "A Court of Thorns and Roses",
+  "author": "Sarah J. Maas",
+  "author_sort": "Maas, Sarah J.",
+  "category": "Romantasy",
+  "extra_shelves": [],
+  "series": "A Court of Thorns and Roses, Book 1",
+  "status": "read",
+  "rating": 3.5,
+  "year": 2015,
+  "pages": 419,
+  "isbn13": "9781635575569",
+  "date_read": "2026/10/21",
+  "date_added": "2026/10/20",
+  "goodreads_id": 50659467,
+  "possible_duplicate": false,
+  "year_approx": false,
+  "synopsis": "A huntress kills a wolf in the woods and is carried off to a faerie court as payment, where a curse hangs over her captor and his lands.",
+  "series_name": "A Court of Thorns and Roses",
+  "series_number": "1",
+  "waterstones": "Romantasy",
+  "foyles": "Science Fiction & Fantasy",
+  "blackwells": "Science Fiction & Fantasy",
+  "edition": "Bloomsbury Publishing · Paperback · 2020",
+  "contributors": null,
+  "waterstones_also": [
+   "Science Fiction & Fantasy"
+  ],
+  "foyles_also": [],
+  "blackwells_also": [],
+  "review": null
+ },
+ {
+  "title": "The Hound of the Baskervilles",
+  "author": "Arthur Conan Doyle",
+  "author_sort": "Doyle, Arthur Conan",
+  "category": "Classics 1800s–1950s",
+  "extra_shelves": [],
+  "series": "Sherlock Holmes, Book 5",
+  "status": "to-read",
+  "rating": null,
+  "year": 1902,
+  "pages": 256,
+  "isbn13": null,
+  "date_read": null,
+  "date_added": "2026/10/19",
+  "goodreads_id": 8921,
+  "possible_duplicate": false,
+  "year_approx": false,
+  "synopsis": "Sherlock Holmes and Dr Watson investigate a family curse and a spectral hound haunting the bleak moors of Dartmoor.",
+  "series_name": "Sherlock Holmes",
+  "series_number": "5",
+  "waterstones": "Classics",
+  "foyles": "Classics",
+  "blackwells": "Classics",
+  "edition": "Signet · Mass Market Paperback · 2001",
+  "contributors": "Anne Perry, Mark Hallaq",
+  "waterstones_also": [
+   "Crime & Thrillers"
+  ],
+  "foyles_also": [
+   "Crime & Thrillers"
+  ],
+  "blackwells_also": [
+   "Crime & Thrillers"
+  ],
+  "review": null
+ },
+ {
+  "title": "Notes On Writing Weird Fiction",
+  "author": "H.P. Lovecraft",
+  "author_sort": "Lovecraft, H.P.",
+  "category": "Writing & Criticism",
+  "extra_shelves": [],
+  "series": null,
+  "status": "to-read",
+  "rating": null,
+  "year": 2012,
+  "pages": null,
+  "isbn13": null,
+  "date_read": null,
+  "date_added": "2026/10/19",
+  "goodreads_id": 18372224,
+  "possible_duplicate": false,
+  "year_approx": false,
+  "synopsis": "Lovecraft's short essay on why he writes weird fiction and how he goes about it, from building atmosphere to planning a story.",
+  "series_name": null,
+  "series_number": null,
+  "waterstones": "Not usually stocked",
+  "foyles": "Not usually stocked",
+  "blackwells": "Not usually stocked",
+  "edition": "Unknown Binding",
+  "contributors": null,
+  "waterstones_also": [],
+  "foyles_also": [],
+  "blackwells_also": [],
+  "review": null
+ },
+ {
+  "title": "Writing in the Dark",
+  "author": "Tim Waggoner",
+  "author_sort": "Waggoner, Tim",
+  "category": "Writing & Criticism",
+  "extra_shelves": [],
+  "series": null,
+  "status": "to-read",
+  "rating": null,
+  "year": 2020,
+  "pages": 236,
+  "isbn13": "9781947879232",
+  "date_read": null,
+  "date_added": "2026/10/19",
+  "goodreads_id": 54454816,
+  "possible_duplicate": false,
+  "year_approx": false,
+  "synopsis": "A practical guide to writing horror fiction from a veteran of the genre, covering fear, character, craft and the business of publishing.",
+  "series_name": null,
+  "series_number": null,
+  "waterstones": "Not usually stocked",
+  "foyles": "Not usually stocked",
+  "blackwells": "Not usually stocked",
+  "edition": "Guide Dog Books · Hardcover · 2020",
+  "contributors": null,
+  "waterstones_also": [],
+  "foyles_also": [],
+  "blackwells_also": [],
+  "review": null
+ },
+ {
+  "title": "The Weird and the Eerie",
+  "author": "Mark Fisher",
+  "author_sort": "Fisher, Mark",
+  "category": "Writing & Criticism",
+  "extra_shelves": [],
+  "series": null,
+  "status": "to-read",
+  "rating": null,
+  "year": 2016,
+  "pages": 134,
+  "isbn13": "9781910924389",
+  "date_read": null,
+  "date_added": "2026/10/19",
+  "goodreads_id": 29845449,
+  "possible_duplicate": false,
+  "year_approx": false,
+  "synopsis": "A short study of two unsettling feelings, the weird and the eerie, through the fiction and films of Lovecraft, Wells, Lynch, Kubrick and others.",
+  "series_name": null,
+  "series_number": null,
+  "waterstones": "Philosophy",
+  "foyles": "Philosophy",
+  "blackwells": "Philosophy · Norrington Room",
+  "edition": "Repeater Books · Paperback · 2016",
+  "contributors": null,
+  "waterstones_also": [],
+  "foyles_also": [],
+  "blackwells_also": [],
+  "review": null
+ },
+ {
+  "title": "The Secret History",
+  "author": "Donna Tartt",
+  "author_sort": "Tartt, Donna",
+  "category": "Dark, Surreal & Strange",
+  "extra_shelves": [],
+  "series": null,
+  "status": "to-read",
+  "rating": null,
+  "year": 1992,
+  "pages": 559,
+  "isbn13": "9781400031702",
+  "date_read": null,
+  "date_added": "2026/10/19",
+  "goodreads_id": 29044,
+  "possible_duplicate": false,
+  "year_approx": false,
+  "synopsis": "A close-knit group of classics students at a Vermont college drift beyond ordinary morality, and one of them ends up dead.",
+  "series_name": null,
+  "series_number": null,
+  "waterstones": "Fiction A–Z",
+  "foyles": "Fiction A–Z",
+  "blackwells": "Fiction",
+  "edition": "Vintage Books · Paperback · 2004",
+  "contributors": null,
+  "waterstones_also": [],
+  "foyles_also": [],
+  "blackwells_also": [],
+  "review": null
+ },
+ {
+  "title": "Interview with the Vampire",
+  "author": "Anne Rice",
+  "author_sort": "Rice, Anne",
+  "category": "Modern Gothic & Horror",
+  "extra_shelves": [],
+  "series": "The Vampire Chronicles, Book 1",
+  "status": "to-read",
+  "rating": null,
+  "year": 1976,
+  "pages": 340,
+  "isbn13": "9780394498218",
+  "date_read": null,
+  "date_added": "2026/10/19",
+  "goodreads_id": 34778,
+  "possible_duplicate": false,
+  "year_approx": false,
+  "synopsis": "The vampire Louis tells a young reporter the story of his two centuries of undeath, from New Orleans to Paris, alongside the vampire Lestat.",
+  "series_name": "The Vampire Chronicles",
+  "series_number": "1",
+  "waterstones": "Horror",
+  "foyles": "Horror",
+  "blackwells": "Horror",
+  "edition": "Alfred A. Knopf · Hardcover · 1994",
+  "contributors": null,
+  "waterstones_also": [
+   "Fiction A–Z"
+  ],
+  "foyles_also": [
+   "Fiction A–Z"
+  ],
+  "blackwells_also": [
+   "Fiction"
+  ],
+  "review": null
+ },
+ {
+  "title": "Dr Jekyll and Mr Hyde",
+  "author": "Robert Louis Stevenson",
+  "author_sort": "Stevenson, Robert Louis",
+  "category": "Classic Gothic",
+  "extra_shelves": [],
+  "series": null,
+  "status": "to-read",
+  "rating": null,
+  "year": 1886,
+  "pages": 88,
+  "isbn13": "9780140623505",
+  "date_read": null,
+  "date_added": "2026/10/19",
+  "goodreads_id": 6443632,
+  "possible_duplicate": false,
+  "year_approx": false,
+  "synopsis": "A London lawyer investigates the strange link between his respected friend Dr Jekyll and the violent, repellent Mr Edward Hyde.",
+  "series_name": null,
+  "series_number": null,
+  "waterstones": "Classics",
+  "foyles": "Classics",
+  "blackwells": "Classics",
+  "edition": "Penguin · Paperback · 1994",
+  "contributors": null,
+  "waterstones_also": [
+   "Horror"
+  ],
+  "foyles_also": [
+   "Horror"
+  ],
+  "blackwells_also": [
+   "Horror"
   ],
   "review": null
  }
