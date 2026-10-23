@@ -11,8 +11,9 @@ const books = await response.json();
 // ===== 1b. THE DATABASE ON THIS DEVICE =====
 // One table, "edits": one record per book you've changed, found by its id
 const db = new Dexie("exLibris");
-db.version(1).stores({
-    edits: "id"
+db.version(2).stores({
+    edits: "id",
+    sessions: "++id, bookId"
 });
 
 // Lay your saved edits over the original books, so changes survive a reload
@@ -41,6 +42,7 @@ function addText(parent, tag, text) {
     const element = document.createElement(tag);
     element.textContent = text;
     parent.append(element);
+    return element; // in case caller wants to style it
 }
 
 async function saveEdit(id, changes) {
@@ -55,6 +57,44 @@ function addField(parent, labelText, control) {
     addText(label, "span", labelText);
     label.append(control);
     parent.append(label);
+}
+
+// Draw one book's reading sessions into a container, newest first
+async function showSessions(book, container) {
+    const sessions = await db.sessions.where("bookId").equals(book.goodreads_id).toArray();
+    sessions.sort((a, b) => b.date.localeCompare(a.date));
+
+    container.replaceChildren();
+
+    if (sessions.length === 0) {
+        addText(container, "p", "No sessions logged yet.");
+        return;
+    }
+    // progress bar from the highest page logged so far
+    const pages = sessions.map(s => s.page).filter(p => p);
+    if (book.pages && pages.length > 0) {
+        const reached = Math.max(...pages);
+        const fraction = Math.min(reached / book.pages, 1);
+
+        const width = 20;
+        const filled = Math.round(fraction * width);
+        const bar = "█".repeat(filled) + "░".repeat(width - filled);
+        const percent = Math.round(fraction * 100);
+
+        const line = addText(container, "p", `[${bar}] ${percent}% · page ${reached} of ${book.pages}`);
+        line.className = "pbar";
+    }
+
+    for (const session of sessions) {
+        const entry = document.createElement("div");
+        entry.className = "session";
+        const pageText = session.page ? ` · page ${session.page}` : "";
+        addText(entry, "h4", session.date + pageText);
+        if (session.note) {
+            addText(entry, "p", session.note);
+        }
+        container.append(entry);
+    }
 }
 
 // ===== 4. MAIN FUNCTIONS =====
@@ -97,6 +137,7 @@ function showBook(book) {
         applyFilters();
     });
 
+    // create rating box option
     const ratingBox = document.createElement("input");
     ratingBox.type = "number";
     ratingBox.min = 0;
@@ -112,6 +153,7 @@ function showBook(book) {
         applyFilters();
     });
 
+    // create date read option
     const dateRead = document.createElement("input");
     dateRead.type = "date";
     dateRead.value = (book.date_read ?? "").replaceAll("/", "-");
@@ -128,6 +170,61 @@ function showBook(book) {
         addText(panel, "p", book.series);
     }
     addText(panel, "p", book.synopsis);
+
+    // --- log reading session ---
+
+    const form = document.createElement("form");
+    form.className = "logform";
+    addText(form, "h3", "Log a session");
+
+    const today = new Date().toLocaleDateString("en-CA"); // looks like 2026-10-23
+
+    const sessionDate = document.createElement("input");
+    sessionDate.type = "date";
+    sessionDate.value = today;
+    addField(form, "Date", sessionDate);
+
+    const pageBox = document.createElement("input");
+    pageBox.type = "number";
+    pageBox.min = 0;
+    if (book.pages) {
+        pageBox.max = book.pages;
+    }
+    addField(form, "Page reached", pageBox);
+
+    const noteBox = document.createElement("textarea");
+    addField(form, "Note", noteBox);
+
+    const saveButton = document.createElement("button");
+    saveButton.textContent = "Save session";
+    form.append(saveButton);
+
+    panel.append(form);
+
+    // list the past sessions under the form
+
+    const  sessionList = document.createElement("div");
+    sessionList.className = "sessions";
+    panel.append(sessionList);
+    showSessions(book, sessionList); // no await: the rest of the panel doesn't wait for it
+
+    // when the form is submitted, save the session as a new record
+    form.addEventListener("submit", async (event) => {
+        event.preventDefault(); // stop the browser reloading the page
+
+        await db.sessions.add({
+            bookId: book.goodreads_id,
+            date: sessionDate.value.replaceAll("-", "/"),
+            page: pageBox.value === "" ? null : Number(pageBox.value),
+            note: noteBox.value
+        });
+
+        // clear the form for next time, but keep today's date
+        form.reset();
+        sessionDate.value = today;
+
+        await showSessions(book, sessionList);
+    });
 }
 
 // Draw a list of books on the page
@@ -239,3 +336,4 @@ search.addEventListener("input", applyFilters);
 categorySelect.addEventListener("change", applyFilters);
 statusSelect.addEventListener("change", applyFilters);
 sortSelect.addEventListener("change", applyFilters);
+

@@ -244,6 +244,79 @@ main {
     border-radius: 3px;
 }
 
+/* The log-a-session form at the bottom of the panel */
+#panel .logform {
+    display: grid;
+    gap: 12px;
+    margin-top: 20px;
+    padding: 14px;
+    border: 1px solid var(--accent);
+    border-radius: 3px;
+}
+
+#panel .logform h3 {
+    font-family: var(--display);
+    font-weight: 400;
+    margin: 0;
+}
+
+#panel .field textarea {
+    font: inherit;
+    padding: 8px 10px;
+    min-height: 80px;
+    background: var(--paper);
+    color: var(--ink);
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+}
+
+#panel .logform button {
+    justify-self: start;
+    font-family: var(--type);
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    padding: 9px 16px;
+    background: var(--accent);
+    color: var(--accent-ink);
+    border: 0;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+/* Past sessions under the log form */
+#panel .sessions {
+    display: grid;
+    gap: 10px;
+    margin-top: 16px;
+}
+
+#panel .session {
+    padding: 10px 12px;
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+}
+
+#panel .session h4 {
+    margin: 0;
+    font-family: var(--type);
+    font-size: 13px;
+    font-weight: 700;
+}
+
+#panel .session p {
+    margin: 4px 0 0;
+}
+
+/* ASCII progress bar above the sessions */
+#panel .pbar {
+    margin: 0;
+    font-family: var(--type);
+    color: var(--accent);
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
 /* ===== PHONES ===== */
 /* Narrow screens: stack the list and panel instead of side by side */
 @media (max-width: 700px) {
